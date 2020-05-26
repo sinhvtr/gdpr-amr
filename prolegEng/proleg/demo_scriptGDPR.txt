@@ -1,0 +1,93 @@
+This is a script in CYGWIN interface.
+From windows system, you could click "prolegEng190804" and put "[gdprRuleML]." to the prompt "?-" and run "demo." or "demob.".
+
+[GDPR]$ swipl
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+[prolegEng190804, gdprRuleML].
+Warning: c:/users/ksato/downloads/gnupack-pretest_devel-2018.11.25/home/ksatoh/gdpr/gdprruleml.pl:50:
+	Singleton variables: [DataSubject,CountryOrOrganisation]
+true.
+
+demo.
+  plaintiff' tried to prove ''"'infringement(transfer(companyA_Ireland,personal_data(personalData),thirdCountry))'"''.'
+  'To prove ''"'infringement(transfer(companyA_Ireland,personal_data(personalData),thirdCountry))'"'','
+  'we need to prove the following requisites:'
+
+      requisite1': 'transfer(companyA_Ireland,personal_data(personalData),thirdCountry)
+      requisite2': 'personal_data(personalData)
+      requisite3': 'undergoing_processing_or_intended_for_processing_after_transfer(personal_data(personalData),companyA_Ireland)
+      requisite4': 'third_country_or_international_organisation(thirdCountry)
+
+    plaintiff' tried to prove ''"'transfer(companyA_Ireland,personal_data(personalData),thirdCountry)'"''.'
+      '"'transfer(companyA_Ireland,personal_data(personalData),thirdCountry)'"'' is over the stringent belief level.'
+    plaintiff' successfully proved ''"'transfer(companyA_Ireland,personal_data(personalData),thirdCountry)'"''.'
+    plaintiff' tried to prove ''"'personal_data(personalData)'"''.'
+      '"'personal_data(personalData)'"'' is over the stringent belief level.'
+    plaintiff' successfully proved ''"'personal_data(personalData)'"''.'
+    plaintiff' tried to prove ''"'undergoing_processing_or_intended_for_processing_after_transfer(personal_data(personalData),companyA_Ireland)'"''.'
+    'To prove ''"'undergoing_processing_or_intended_for_processing_after_transfer(personal_data(personalData),companyA_Ireland)'"'','
+    'we need to prove the following requisites:'
+
+        requisite1': 'process(companyA_Ireland,personal_data(personalData))
+
+      plaintiff' tried to prove ''"'process(companyA_Ireland,personal_data(personalData))'"''.'
+        '"'process(companyA_Ireland,personal_data(personalData))'"'' is over the stringent belief level.'
+      plaintiff' successfully proved ''"'process(companyA_Ireland,personal_data(personalData))'"''.'
+    plaintiff' successfully proved ''"'undergoing_processing_or_intended_for_processing_after_transfer(personal_data(personalData),companyA_Ireland)'"''.'
+    plaintiff' tried to prove ''"'third_country_or_international_organisation(thirdCountry)'"''.'
+    'To prove ''"'third_country_or_international_organisation(thirdCountry)'"'','
+    'we need to prove the following requisites:'
+
+        requisite1': 'third_country(thirdCountry)
+
+      plaintiff' tried to prove ''"'third_country(thirdCountry)'"''.'
+      'To prove ''"'third_country(thirdCountry)'"'','
+      'we need to prove the following requisites:'
+
+          requisite1': 'not_EEA_country(thirdCountry)
+
+        plaintiff' tried to prove ''"'not_EEA_country(thirdCountry)'"''.'
+          '"'not_EEA_country(thirdCountry)'"'' is over the stringent belief level.'
+        plaintiff' successfully proved ''"'not_EEA_country(thirdCountry)'"''.'
+      plaintiff' successfully proved ''"'third_country(thirdCountry)'"''.'
+    plaintiff' successfully proved ''"'third_country_or_international_organisation(thirdCountry)'"''.'
+    defendant' alleges ''"'subject_to_appropriate_safeguards(companyA_Ireland)'"'
+    ' as a defense against ''"'infringement(transfer(companyA_Ireland,personal_data(personalData),thirdCountry))'"''.'
+      defendant' tried to prove ''"'subject_to_appropriate_safeguards(companyA_Ireland)'"''.'
+      'To prove ''"'subject_to_appropriate_safeguards(companyA_Ireland)'"'','
+      'we need to prove the following requisites:'
+
+          requisite1': 'has_provided(companyA_Ireland,appropriate_safeguards('BCR'))
+          requisite2': 'appropriate_safeguards('BCR')
+          requisite3': 'on_condition_that_enforceble_data_subject_right_and_effective_legal_remedies_for_data_subjects_are_available
+
+        defendant' tried to prove ''"'has_provided(companyA_Ireland,appropriate_safeguards('BCR'))'"''.'
+          '"'has_provided(companyA_Ireland,appropriate_safeguards('BCR'))'"'' is over the stringent belief level.'
+        defendant' successfully proved ''"'has_provided(companyA_Ireland,appropriate_safeguards('BCR'))'"''.'
+        defendant' tried to prove ''"'appropriate_safeguards('BCR')'"''.'
+        'To prove ''"'appropriate_safeguards('BCR')'"'','
+        'we need to prove the following requisites:'
+
+            requisite1': 'binding_corporate_rules_in_accordance_with_Article_47
+
+          defendant' tried to prove ''"'binding_corporate_rules_in_accordance_with_Article_47'"''.'
+            '"'binding_corporate_rules_in_accordance_with_Article_47'"'' is over the stringent belief level.'
+          defendant' successfully proved ''"'binding_corporate_rules_in_accordance_with_Article_47'"''.'
+        defendant' successfully proved ''"'appropriate_safeguards('BCR')'"''.'
+        defendant' tried to prove ''"'on_condition_that_enforceble_data_subject_right_and_effective_legal_remedies_for_data_subjects_are_available'"''.'
+          '"'on_condition_that_enforceble_data_subject_right_and_effective_legal_remedies_for_data_subjects_are_available'"'' is over the stringent belief level.'
+        defendant' successfully proved ''"'on_condition_that_enforceble_data_subject_right_and_effective_legal_remedies_for_data_subjects_are_available'"''.'
+      defendant' successfully proved ''"'subject_to_appropriate_safeguards(companyA_Ireland)'"''.'
+    defendant' successfully proved ''"'subject_to_appropriate_safeguards(companyA_Ireland)'"'
+    ' as a defense against ''"'infringement(transfer(companyA_Ireland,personal_data(personalData),thirdCountry))'"''.'
+  plaintiff' failed to prove ''"'infringement(transfer(companyA_Ireland,personal_data(personalData),thirdCountry))'"''.'
+false.
+
+demob.
+true.

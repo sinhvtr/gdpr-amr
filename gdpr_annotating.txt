@@ -1,0 +1,712 @@
+# ::id whereas_1_1
+# ::snt The protection of natural persons in relation to the processing of personal data is a fundamental right.
+(p / protect-01
+      :ARG1 (p2 / person
+            :ARG1-of (n / natural-03))
+      :ARG0-of (r / relate-01
+            :ARG1 (p3 / process-01
+                  :ARG1 (d / data
+                        :ARG1-of (p4 / personal-02))))
+      :mod (r2 / right-05
+            :mod (f / fundamental)))
+            
+# ::id where_1_2
+# ::snt Article 8(1) of the Charter of Fundamental Rights of the European Union (the 'Charter') and Article 16(1) of the Treaty on the Functioning of the European Union (TFEU) provide that everyone has the right to the protection of personal data concerning him or her.
+(p / provide-01
+      :ARG0 (a / and
+            :op1 (a2 / article :mod 8
+                  :part-of (c / chapter
+                        :domain (r / right-05
+                              :mod (f / fundamental)
+                              :poss (o / organization :wiki "European_Union" :name (n / name :op1 "European" :op2 "Union")))))
+            :op2 (a3 / article :mod 16
+                  :part-of (t / treaty
+                        :domain (f2 / function-01
+                              :poss o))))
+      :ARG1 (h / have-03
+            :ARG0 (e / everyone)
+            :ARG1 (r2 / right-05
+                  :ARG2 (p2 / protect-01
+                        :ARG1 (d / data
+                              :ARG1-of (p3 / personal-02))
+                        :ARG1-of (c3 / concern-02
+                              :ARG1 e)))))
+                              
+# ::id where_2_1
+# ::snt The principles of, and rules on the protection of natural persons with regard to the processing of their personal data should, whatever their nationality or residence, respect their fundamental rights and freedoms, in particular their right to the protection of personal data.
+(r / recommend-01
+      :ARG1 (r2 / respect-01
+            :ARG0 (a / and
+                  :op1 (p / principle)
+                  :op2 (r3 / rule-01)
+                  :topic (p2 / protect-01
+                        :ARG1 (p3 / person
+                              :ARG1-of (n / natural-03))
+                        :ARG1-of (r4 / regard-01
+                              :ARG2 (p4 / process-01
+                                    :ARG1 (d / data
+                                          :ARG1-of (p5 / personal-02))))))
+            :ARG1 (a2 / and
+                  :op1 (r5 / right-05
+                        :ARG2 (p6 / protect-01
+                              :ARG1 (d2 / data
+                                    :ARG1-of (p7 / personal-02)))
+                        :poss p3
+                        :mod (p8 / particular))
+                  :op2 (f / freedom)
+                  :op3 (r7 / right-05)
+                  :mod (f2 / fundamental)))
+      :concession (o / or
+            :op1 (n2 / nationality)
+            :op2 (r6 / residence)
+            :poss p3))
+
+# ::id where_2_1
+# ::snt This Regulation is intended to contribute to the accomplishment of an area of freedom, security and justice and of an economic union, to economic and social progress, to the strengthening and the convergence of the economies within the internal market, and to the well-being of natural persons.
+(i2 / intend-01
+      :ARG0 (c / contribute-01
+            :ARG0 (r / regulate-01
+                  :mod (t / this))
+            :ARG2 (a5 / and
+                  :op1 (a / accomplish-01
+                        :ARG1 (a2 / and
+                              :op1 (a3 / area
+                                    :domain (a4 / and
+                                          :op1 (f / freedom)
+                                          :op2 (s / security)
+                                          :op3 (j / justice)))
+                              :op2 (u / union-02
+                                    :ARG4 (e / economic))))
+                  :op2 (p / progress-01
+                        :ARG1 (a6 / and
+                              :op1 (e2 / economic)
+                              :op2 (s2 / social-03)))
+                  :op3 (a7 / and
+                        :op1 (s3 / strengthen-01
+                              :ARG1 (e3 / economy
+                                    :part-of (m / market
+                                          :ARG1 (i3 / internal-02))))
+                        :op2 (c2 / converge-01
+                              :ARG0 e3))
+                  :op4 (w / well-09
+                        :ARG1 (p2 / person
+                              :ARG1-of (n / natural-03))))))
+
+
+# ::id where_3_1
+# ::snt Directive 95/46/EC of the European Parliament and of the Council (4) seeks to harmonise the protection of fundamental rights and freedoms of natural persons in respect of processing activities and to ensure the free flow of personal data between Member States.
+(s / seek-01
+      :ARG0 (d / directive :name (n / name :op1 "law" :op2 "95/46/EC")
+            :poss (a / and
+                  :op1 (o / organization :name (n2 / name :op1 "European" :op2 "Parliament"))
+                  :op2 (o2 / organization :name (n3 / name :op1 "Council"))))
+      :ARG1 (a2 / and
+            :op1 (h / harmonize-01
+                  :ARG1 (p / protect-01
+                        :ARG1 (a3 / and
+                              :op1 (r / right-05)
+                              :op2 (f / freedom)
+                              :mod (f2 / fundamental)
+                              :poss (p2 / person
+                                    :ARG1-of (n4 / natural-03))))
+                  :ARG2 (a4 / activity-06
+                        :ARG1 (p3 / process-01)))
+            :op2 (e / ensure-01
+                  :ARG1 (f3 / flow-01
+                        :ARG1 (f4 / free-04)
+                        :ARG1 (d2 / data
+                              :ARG1-of (p4 / personal-02))
+                        :ARGM-DIR (o3 / organization :name (n5 / name :op1 "Member" :op2 "States"))))))
+
+# ::id where_4_1
+# ::snt The processing of personal data should be designed to serve mankind.
+(r / recommend-01
+      :ARG1 (d / design-01
+            :ARG1 (p / process-01
+                  :ARG1 (d2 / data
+                        :ARG1-of (p2 / personal-02)))
+            :ARG3 (s / serve-01
+                  :ARG2 (m / mankind))))
+
+# ::id where_4_2
+# ::snt The right to the protection of personal data is not an absolute right; it must be considered in relation to its function in society and be balanced against other fundamental rights, in accordance with the principle of proportionality.
+(m / multi-sentence
+      :snt1 (r / right-05
+            :ARG2 (p / protect-01
+                  :ARG1 (d / data
+                        :ARG1-of (p2 / personal-02)))
+            :domain (r2 / right-05 :polarity -
+                  :mod (a / absolute)))
+      :snt2 (o / obligate-01
+            :ARG1 (a2 / and
+                  :op1 (c / consider-02
+                        :ARG1 r
+                        :manner (r3 / relate-01
+                              :ARG2 (f / function-01
+                                    :poss r
+                                    :topic (s / society))))
+                  :op2 (b / balance-01
+                        :ARG1 r
+                        :ARG2 (r4 / right-05
+                              :mod (f2 / fundamental)
+                              :mod (o2 / other))
+                        :ARG1-of (a3 / accord-02
+                              :ARG2 (p3 / principle
+                                    :topic (p4 / proportionality)))))))
+
+# ::id where_4_2
+# ::snt This Regulation respects all fundamental rights and observes the freedoms and principles recognised in the Charter as enshrined in the Treaties, in particular the respect for private and family life, home and communications, the protection of personal data, freedom of thought, conscience and religion, freedom of expression and information, freedom to conduct a business, the right to an effective remedy and to a fair trial, and cultural, religious and linguistic diversity.
+(r / regulation-01
+      :ARG0-of (a / and
+            :op1 (r2 / respect-01
+                  :ARG1 (r3 / right-05
+                        :mod (f / fundamental)
+                        :mod (a2 / all)))
+            :op2 (o / observe-01
+                  :ARG1 (a3 / and
+                        :op1 (f2 / freedom)
+                        :op2 (p / principle)
+                        :ARG1-of (a4 / and
+                              :op1 (r4 / recognize-02
+                                    :ARG2 (l / law :name (n / name :op1 "Charter")))
+                              :op2 (e / enshrine-01
+                                    :ARG2 (l2 / law :name (n2 / name :op1 "Treaties")))))))
+      :ARG0-of (r5 / respect-01
+            :ARG1 (a5 / and
+                  :op1 (l3 / life
+                        :mod (a6 / and
+                              :op1 (p2 / private-02)
+                              :op2 (f3 / family)))
+                  :op2 (a7 / and
+                        :op1 (h / home)
+                        :op2 (c / communicate-01))
+                  :op3 (p3 / protect-01
+                        :ARG1 (d / data
+                              :ARG1-of (p4 / personal-02)))
+                  :op4 (t / think-01
+                        :manner (f4 / freedom))
+                  :op5 (a8 / and
+                        :op1 (c2 / conscience)
+                        :op2 (r6 / religion))
+                  :op6 (f5 / freedom
+                        :topic (a9 / and
+                              :op1 (e2 / express-01)
+                              :op2 (i2 / information)))
+                  :op7 (f6 / freedom
+                        :purpose (c3 / conduct-01
+                              :ARG1 (b / business)))
+                  :op8 (r7 / right-05
+                        :ARG2 (a10 / and
+                              :op1 (r8 / remedy
+                                    :ARG1-of (e3 / effective-04))
+                              :op2 (t2 / trial
+                                    :ARG1-of (f7 / fair-01))))
+                  :op9 (d2 / diversity
+                        :domain (a11 / and
+                              :op1 (c4 / cultural)
+                              :op2 (r9 / religious)
+                              :op3 (l4 / linguistic))))
+            :mod (p5 / particular)))
+
+# ::id article_1_1
+# ::snt This Regulation lays down rules relating to the protection of natural persons with regard to the processing of personal data and rules relating to the free movement of personal data.
+(l / lay-01
+      :ARG0 (r / regulate-01
+            :mod (t / this))
+      :ARG1 (a / and
+            :op1 (r2 / rule-01
+                  :ARG1-of (r3 / relate-01
+                        :ARG2 (p / protect-01
+                              :ARG1 (p2 / person
+                                    :ARG1-of (n / natural-03))
+                              :ARG1-of (r6 / regard-01
+                                    :ARG2 (p4 / process-01
+                                          :ARG1 (d2 / data
+                                                :ARG1-of (p5 / personal-02)))))))
+            :op2 (r4 / rule-01
+                  :ARG1-of (r5 / relate-01
+                        :ARG2 (m / move-01
+                              :ARG1 (d / data
+                                    :ARG1-of (p3 / personal-02))
+                              :ARG1-of (f / free-04))))))
+
+# ::id article_1_2
+# ::snt This Regulation protects fundamental rights and freedoms of natural persons and in particular their right to the protection of personal data.
+(p / protect-01
+      :ARG0 (r / regulate-01
+            :mod (t / this))
+      :ARG2 (a / and
+            :op1 (a2 / and
+                  :op1 (r2 / right-05)
+                  :op2 (f2 / freedom)
+                  :mod (f / fundamental)
+                  :poss (p2 / person
+                        :ARG1-of (n / natural-03)))
+            :op2 (r3 / right-05
+                  :ARG2 (p4 / protect-01
+                        :ARG1 (d / data
+                              :ARG1-of (p5 / personal-02)))
+                  :poss p2
+                  :mod (p3 / particular))))
+
+# ::id article_1_3
+# ::snt The free movement of personal data within the Union shall be neither restricted nor prohibited for reasons connected with the protection of natural persons with regard to the processing of personal data.
+(m / move-01
+      :ARG0 (d / data
+            :ARG1-of (p / personal-02))
+      :ARG1-of (f / free-04)
+      :location (o / organization :name (n / name :op1 "Union"))
+      :ARG1-of (o2 / or
+            :op1 (r / restrict-01)
+            :op2 (p2 / prohibit-01)
+            :purpose (c / connect-01
+                  :ARG0 m
+                  :ARG2 (p3 / protect-01
+                        :ARG1 (p4 / person
+                              :ARG1-of (n2 / natural-03))   
+                        :ARG1-of (r2 / regard-01
+                              :ARG2 (p5 / process-01
+                                    :ARG1 (d2 / data
+                                          :ARG1-of (p6 / personal-02))))))))
+
+# ::id article_3_1
+# ::snt This Regulation applies to the processing of personal data in the context of the activities of an establishment of a controller or a processor in the Union, regardless of whether the processing takes place in the Union or not.
+(a / apply-02
+      :ARG1 (r / regulate-01)
+      :ARG2 (p / process-01
+            :ARG1 (d / data
+                  :ARG1-of (p2 / personal-02))
+            :condition (a2 / activity-06
+                  :topic (e / establish-01
+                        :ARG1 (o / or
+                              :op1 (c / controller)
+                              :op2 (p3 / processor)
+                              :part-of (o2 / organization :name (n / name :op1 "Union"))))))
+      :ARG1-of (r2 / regardless-91
+            :ARG2 (p4 / process-01
+                  :location o2)))
+                  
+# ::id article_3_2
+# ::snt This Regulation applies to the processing of personal data of data subjects who are in the Union by a controller or processor not established in the Union, where the processing activities are related to:
+    (a) the offering of goods or services, irrespective of whether a payment of the data subject is required, to such data subjects in the Union; or
+    (b) the monitoring of their behaviour as far as their behaviour takes place within the Union.
+(a / apply-02
+      :ARG1 (r / regulate-01)
+      :ARG2 (p / process-01
+            :ARG0 (o2 / or
+                  :op1 (c / controller)
+                  :op2 (p3 / processor)
+                  :ARG1-of (e / establish-01
+                        :location (o3 / organization :polarity - :name (n2 / name :op1 "Union"))))
+            :ARG1 (d / data
+                  :ARG1-of (p2 / personal-02)
+                  :poss (s / subject
+                        :domain (d2 / data)
+                        :location (o / organization :name (n / name :op1 "Union"))))
+            :ARG1-of (a2 / activity-06
+                  :ARG1-of (r2 / relate-01
+                        :ARG2 (o4 / or
+                              :op1 (o5 / offer-01 :li "a"
+                                    :ARG1 (o6 / or
+                                          :op1 (g / good)
+                                          :op2 (s2 / service))
+                                    :ARG1-of (r3 / regardless-91
+                                          :ARG2 (r4 / require-01
+                                                :ARG1 (p4 / pay-01
+                                                      :ARG0 s))))
+                              :op2 (m / monitor-01 :li "b"
+                                    :ARG1 (b / behaviour
+                                          :poss a2)
+                                    :time (t / take-14
+                                          :ARG1 b
+                                          :ARG2 (p5 / place)
+                                          :location o)))))))
+                                          
+# ::id article_3_3
+# ::snt This Regulation applies to the processing of personal data by a controller not established in the Union, but in a place where Member State law applies by virtue of public international law.
+(a / apply-02
+      :ARG1 (r / regulate-01)
+      :ARG2 (p / process-01
+            :ARG0 (c / controller
+                  :ARG1-of (e / establish-01
+                        :location (o / organization :name (n / name :op1 "Union")))
+                  :ARG1-of (e2 / establish-01
+                        :location (p3 / place
+                              :location-of (a2 / apply-02
+                                    :ARG1 (l / law
+                                          :poss (o2 / organization :name (n2 / name :op1 "Member" :op2 "State"))
+                                          :ARG1-of (s / say-01
+                                                :ARG0 (l2 / law
+                                                      :mod (i2 / international)
+                                                      :ARG1-of (p4 / public-02))))))))
+            :ARG1 (d / data
+                  :ARG1-of (p2 / personal-02))))
+                  
+# ::id article_4_1
+# ::snt 'personal data' means any information relating to an identified or identifiable natural person (‘data subject’); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person;
+(m4 / multi-sentence
+      :snt1 (m / mean-01
+            :ARG1 (d / data
+                  :ARG1-of (p / personal-02))
+            :ARG2 (i2 / information
+                  :mod (a / any)
+                  :ARG1-of (r / relate-01
+                        :ARG2 (o / or
+                              :op1 (p2 / person
+                                    :ARG1-of (n / natural-03)
+                                    :ARG1-of (i3 / identify-01
+                                          :ARG1-of (p4 / possible-01))
+                                    :ARG1-of (m2 / mean-01
+                                          :ARG2 (s / subject
+                                                :domain (d2 / data))))
+                              :op2 (p3 / person
+                                    :ARG1-of (n2 / natural-03)
+                                    :ARG1-of (i4 / identify-01)
+                                    :ARG1-of (m3 / mean-01
+                                          :ARG2 s))))))
+      :snt1 (i5 / identify-01
+            :ARG1 p2
+            :ARG1-of (p5 / possible-01)
+            :ARG1-of (o2 / or
+                  :op1 (d3 / direct-02)
+                  :op2 (d4 / direct-02 :polarity -))
+            :ARG1-of (r2 / refer-01
+                  :ARG2 (o4 / or
+                        :op1 (t / thing
+                              :ARG0-of (i6 / identify-01)
+                              :example (o3 / or
+                                    :op1 (n3 / name)
+                                    :op2 (n4 / number
+                                          :ARG1-of (i7 / identify-01))
+                                    :op3 (d5 / data
+                                          :domain (l / location))))
+                        :op2 (t2 / thing
+                              :ARG0-of (i8 / identify-01)
+                              :mod (o5 / online))
+                        :op3 (f / factor
+                              :quant (a2 / at-least :op1 1)
+                              :ARG1-of (s2 / specific-02
+                                    :ARG2 (i9 / identity
+                                          :mod (o6 / or
+                                                :op1 (p6 / physical)
+                                                :op2 (p7 / physiological)
+                                                :op3 (g / genetic)
+                                                :op4 (m5 / mental)
+                                                :op5 (e / economic)
+                                                :op6 (c / cultural)
+                                                :op7 (s3 / social-03))
+                                          :poss p2)))))))
+                                          
+# ::id article_4_3
+# ::snt 'restriction of processing' means the marking of stored personal data with the aim of limiting their processing in the future;
+(m / mean-01
+      :ARG1 (r / restrict-01
+            :ARG1 (p / process-01))
+      :ARG2 (m2 / mark-01
+            :ARG1 (d / data
+                  :ARG1-of (p2 / personal-02)
+                  :ARG1-of (s / store-01))
+            :purpose (l / limit-01
+                  :ARG1 p
+                  :time (f / future))))
+
+# ::id article_4_8
+# ::snt ‘processor’ means a natural or legal person, public authority, agency or other body which processes personal data on behalf of the controller;
+(m / mean-01
+      :ARG1 (p / processor)
+      :ARG2 (o / or
+            :op1 (p2 / person
+                  :ARG1-of (o2 / or
+                        :op1 (n / natural-03)
+                        :op2 (l / legal-02)))
+            :op2 (a / authority
+                  :ARG1-of (p3 / public-02))
+            :op3 (a2 / agency)
+            :op4 (b / body
+                  :mod (o3 / other))
+            :ARG0-of (p4 / process-01
+                  :ARG1 (d / data
+                        :ARG1-of (p5 / personal-02))
+                  :prep-on-behalf-of (c / controller))))
+
+# ::id article_27_1
+# ::snt Where Article 3(2) applies, the controller or the processor shall designate in writing a representative in the Union.
+(d / designate-01
+      :ARG1 (o / or
+            :op1 (c / controller)
+            :op2 (p / processor))
+      :ARG2 (w / write-01
+            :ARG1 (r / representative
+                  :location (o2 / organization :name (n / name :op1 "Union"))))
+      :condition (a / apply-02
+            :ARG1 (l / law :name (n2 / name :op1 "Article" :op2 "3" :op3 "(2)"))))
+            
+# ::id article_4_6
+# ::snt 'filing system' means any structured set of personal data which are accessible according to specific criteria, whether centralised, decentralised or dispersed on a functional or geographical basis;
+(m / mean-01
+      :ARG1 (s / system
+            :ARG1-of (f / file-01))
+      :ARG2 (s2 / set
+            :ARG1-of (s3 / structure-01)
+            :mod (a / any)
+            :topic (d / data
+                  :ARG1-of (p / personal-02)
+                  :ARG1-of (a2 / access-01
+                        :ARG1-of (p2 / possible-01)
+                        :ARG1-of (s4 / say-01
+                              :ARG0 (c / criteria
+                                    :ARG1-of (s5 / specific-02))))
+                  :ARG1-of (o / or
+                        :op1 (c2 / centralize-01)
+                        :op2 (c3 / centralize-01 :polarity -)
+                        :op3 (d2 / disperse-01)
+                        :ARG1-of (b / base-02
+                              :mod (o2 / or
+                                    :op1 (f2 / functional)
+                                    :op2 (g / geographical)))))))
+                                    
+# ::id article_4_7
+# ::snt 'controller' means the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data; where the purposes and means of such processing are determined by Union or Member State law, the controller or the specific criteria for its nomination may be provided for by Union or Member State law;
+(m3 / multi-sentence
+      :snt1 (m / mean-01
+            :ARG1 (c / controller)
+            :ARG2 (o / or
+                  :op1 (p / person
+                        :ARG1-of (o3 / or
+                              :op1 (n / natural-03)
+                              :op2 (l / legal-02)))
+                  :op2 (a / authority
+                        :ARG1-of (p2 / public-02))
+                  :op3 (a2 / agency)
+                  :op4 (b / body
+                        :mod (o2 / other))
+                  :ARG0-of (d / determine-01
+                        :ARG1 (a3 / and
+                              :op1 (p3 / purpose
+                                    :purpose-of (p4 / process-01
+                                          :ARG1 (d2 / data
+                                                :ARG1-of (p5 / personal-02))))
+                              :op2 (m2 / mean
+                                    :medium-of p4))
+                        :manner (o4 / or
+                              :op1 (a4 / alone)
+                              :op2 (j / jointly
+                                    :prep-with (o5 / other))))))
+      :snt2 (p6 / possible-01
+            :ARG1 (p7 / provision-02
+                  :ARG0 l2
+                  :ARG1 (o9 / or
+                        :op1 (c2 / controller)
+                        :op2 (c3 / criteria
+                              :ARG1-of (s / specific-02))
+                        :purpose (n4 / nominate-01
+                              :ARG1 o9)))
+            :condition (d3 / determine-01
+                  :ARG0 (l2 / law
+                        :poss (o6 / or
+                              :op1 (o7 / organization :name (n2 / name :op1 "Union"))
+                              :op2 (o8 / organization :name (n3 / name :op1 "Member" :op2 "States"))))
+                  :ARG1 a3)))
+                  
+# ::id article_4_10
+# ::snt 'third party' means a natural or legal person, public authority, agency or body other than the data subject, controller, processor and persons who, under the direct authority of the controller or processor, are authorised to process personal data;
+(m / mean-01
+      :ARG1 (p / party
+            :ord (o / ordinal-entity :value 3))
+      :ARG2 (o2 / or
+            :op1 (p2 / person
+                  :ARG1-of (o3 / or
+                        :op1 (n / natural-03)
+                        :op2 (l / legal-02)))
+            :op2 (a / authority
+                  :ARG1-of (p3 / public-02))
+            :op3 (a2 / agency)
+            :op4 (b / body)
+            :ARG2-of (e / except-01
+                  :ARG1 (a3 / and
+                        :op1 (s / subject
+                              :domain (d / data))
+                        :op2 (c / controller)
+                        :op3 (p5 / processor)
+                        :op4 (p6 / person)
+                        :ARG2-of (a4 / authorize-01
+                              :ARG1 (p7 / process-01
+                                    :ARG1 (d2 / data
+                                          :ARG1-of (p8 / personal-02)))
+                              :prep-under (a5 / authorize-01
+                                    :ARG0 (o4 / or
+                                          :op1 c
+                                          :op2 p5
+                                          :ARG1-of (d3 / direct-02))))))))
+                                          
+# ::id article_44
+# ::snt Any transfer of personal data which are undergoing processing or are intended for processing after transfer to a third country or to an international organisation shall take place only if, subject to the other provisions of this Regulation, the conditions laid down in this Chapter are complied with by the controller and processor, including for onward transfers of personal data from the third country or an international organisation to another third country or to another international organisation. All provisions in this Chapter shall be applied in order to ensure that the level of protection of natural persons guaranteed by this Regulation is not undermined.
+(m / multi-sentence
+      :snt1 (t / take-14
+            :ARG1 (t2 / transfer-01
+                  :ARG1 (d / data
+                        :ARG1-of (p2 / personal-02)
+                        :ARG1-of (o / or
+                              :op1 (u / undergo-28
+                                    :ARG2 (p3 / process-01))
+                              :op2 (i2 / intend-01
+                                    :ARG1 (p4 / process-01))
+                              :time (a / after
+                                    :op1 (t3 / transfer-01
+                                          :ARG1 d
+                                          :ARG2 (o2 / or
+                                                :op1 (p5 / party
+                                                      :ord (o3 / ordinal-entity :value 3))
+                                                :op2 (o4 / organization
+                                                      :mod (i3 / international)))))))
+                  :mod (a2 / any)
+                  :ARG1-of (i4 / include-91
+                        :ARG2 (t6 / transfer-01
+                              :ARG1 (d2 / data
+                                    :ARG1-of (p8 / personal-02))
+                              :ARG2 (o10 / or
+                                    :op1 (c6 / country
+                                          :ord (o11 / ordinal-entity :value 3))
+                                    :op2 (o12 / organization
+                                          :mod (i6 / international))
+                                    :mod (a3 / another))
+                              :ARG3 (o7 / or
+                                    :op1 (c5 / country
+                                          :ord (o8 / ordinal-entity :value 3))
+                                    :op2 (o9 / organization
+                                          :mod (i5 / international)))
+                              :manner (o13 / onward))))
+            :ARG2 (p / place)
+            :condition (c / compile-01
+                  :ARG0 (o5 / or
+                        :op1 (c4 / controller)
+                        :op2 (p6 / processor))
+                  :ARG1 (c2 / condition
+                        :ARG1-of (l / lay-01
+                              :ARG2 (c3 / chapter
+                                    :mod (t4 / this))))
+                  :ARG1-of (s / subject-01
+                        :ARG0 (p7 / provision
+                              :mod (o6 / other)
+                              :part-of (r / regulate-01
+                                    :mod (t5 / this))))))
+      :snt2 (a4 / apply-02
+            :ARG1 (p9 / provision
+                  :mod (a5 / all)
+                  :part-of c3)
+            :purpose (e / ensure-01
+                  :ARG1 (u2 / undermine-01 :polarity -
+                        :ARG1 (l2 / level
+                              :topic (p10 / protect-01
+                                    :ARG1 (p11 / person
+                                          :ARG1-of (n / natural-03)))
+                              :ARG1-of (g / guarantee-01
+                                    :ARG0 r))))))
+
+# ::id article_46_1
+# ::snt In the absence of a decision pursuant to Article 45(3), a controller or processor may transfer personal data to a third country or an international organisation only if the controller or processor has provided appropriate safeguards, and on condition that enforceable data subject rights and effective legal remedies for data subjects are available.
+(p / possible-01
+      :ARG1 (t / transfer-01
+            :ARG0 (o4 / or
+                  :op1 (c2 / controller)
+                  :op2 (p2 / processor))
+            :ARG1 (d / data
+                  :ARG1-of (p3 / personal-02))
+            :ARG2 (o / or
+                  :op1 (c / country
+                        :ord (o3 / ordinal-entity :value 3))
+                  :op2 (o2 / organization
+                        :mod (i2 / international))))
+      :condition (p4 / provide-01
+            :ARG0 o4
+            :ARG1 (s / safeguard-01
+                  :ARG1-of (a / appropriate-02))
+            :condition (a2 / available-02
+                  :ARG2 (a3 / and
+                        :op1 (r / right-05
+                              :ARG1 (s2 / subject
+                                    :domain (d2 / data))
+                              :ARG1-of (e2 / enforce-01
+                                    :ARG1-of (p5 / possible-01)))
+                        :op2 (r2 / remedy
+                              :ARG1-of (l / legal-02)
+                              :ARG1-of (e / effective-04))
+                        :mod (t2 / that))))
+      :condition (a4 / absent-01
+            :ARG1 (d3 / decide-01
+                  :ARG1-of (p6 / pursue-01
+                        :ARG0 (l2 / law :name (n / name :op1 "Article" :op2 "45" :op3 "(3)"))))))
+
+# ::id article_46_2
+# ::snt The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authorisation from a supervisory authority, by:
+    (a) a legally binding and enforceable instrument between public authorities or bodies;
+    (b) binding corporate rules in accordance with Article 47;
+    (c) standard data protection clauses adopted by the Commission in accordance with the examination procedure referred to in Article 93(2);
+    (d) standard data protection clauses adopted by a supervisory authority and approved by the Commission pursuant to the examination procedure referred to in Article 93(2);
+    (e) an approved code of conduct pursuant to Article 40 together with binding and enforceable commitments of the controller or processor in the third country to apply the appropriate safeguards, including as regards data subjects' rights; or
+    (f) an approved certification mechanism pursuant to Article 42 together with binding and enforceable commitments of the controller or processor in the third country to apply the appropriate safeguards, including as regards data subjects' rights.
+(p / possible-01
+      :ARG1 (p2 / provide-01
+            :ARG0 (o / or
+                  :op1 (a4 / and
+                        :op1 (b / bind-01
+                              :ARG1-of (l / legal-02))
+                        :op2 (i2 / instrument
+                              :ARG1-of (e / enforce-01
+                                    :ARG1-of (p4 / possible-01)))
+                        :location (b2 / between
+                              :op1 (o2 / or
+                                    :op1 (a5 / authority
+                                          :ARG1-of (p5 / public-02))
+                                    :op2 (b3 / body))))
+                  :op2 (b4 / bind-01
+                        :ARG1 (r3 / rule-01
+                              :mod (c / corporate))
+                        :ARG1-of (a6 / accord-02
+                              :ARG2 (l2 / law :name (n2 / name :op1 "Article" :op2 "47"))))
+                  :op3 (c2 / clause
+                        :topic (p6 / protect-01
+                              :ARG1 (d / data))
+                        :ARG1-of (s4 / standard-02)
+                        :ARG1-of (a7 / adopt-01
+                              :ARG0 (o3 / organization :name (n3 / name :op1 "Commission"))
+                              :ARG1-of (a8 / accord-02
+                                    :ARG2 (p7 / procedure
+                                          :topic (e2 / examination-02)
+                                          :ARG1-of (r4 / refer-01
+                                                :location (l3 / law :name (n4 / name :op1 "Article" :op2 "93(2)")))))))
+                  :op4 (c3 / clause
+                        :topic (p8 / protect-01
+                              :ARG1 (d2 / data))
+                        :ARG1-of (s5 / standard-02)
+                        :ARG1-of (a9 / adopt-01
+                              :ARG0 (a10 / authority
+                                    :mod (s6 / supervisory)))))
+            :ARG1 (s / safeguard
+                  :ARG1-of (a / appropriate-02)
+                  :ARG1-of (r / refer-01
+                        :location (p3 / paragraph :name (n / name :op1 "1"))))
+            :ARG0-of (r2 / require-01 :polarity -
+                  :ARG1 (a2 / authorize-01
+                        :ARG1-of (s2 / specific-02))
+                  :ARG2 (a3 / authority
+                        :mod (s3 / supervisory)))))
+
+# ::id article_7_1
+# ::snt Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data.
+(p / possible-01
+      :ARG1 (d / demonstrate-01
+            :ARG0 (c / controller)
+            :ARG1 (c2 / consent-01
+                  :ARG0 (s / subject
+                        :topic (d2 / data))
+                  :ARG1 (p2 / process-01
+                        :ARG1 (d3 / data
+                              :ARG1-of (p3 / personal-02)
+                              :poss s))))
+      :condition (b / base-02
+            :ARG1 (p4 / process-01)
+            :ARG2 (c3 / consent-01)))
+
+# ::id article_7_2
+# ::snt If the data subject's consent is given in the context of a written declaration which also concerns other matters, the request for consent shall be presented in a manner which is clearly distinguishable from the other matters, in an intelligible and easily accessible form, using clear and plain language. Any part of such a declaration which constitutes an infringement of this Regulation shall not be binding.

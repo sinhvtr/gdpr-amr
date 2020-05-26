@@ -1,0 +1,14 @@
+node([],infringement(transfer(companyA_Ireland,personal_data(personalData),thirdCountry),x)).
+node([o,0,a,0],transfer(companyA_Ireland,personal_data(personalData),thirdCountry,o)).
+node([o,0,a,1],personal_data(personalData,o)).
+node([o,0,a,2],undergoing_processing_or_intended_for_processing_after_transfer(personal_data(personalData),companyA_Ireland,o)).
+node([o,0,a,2,o,0,a,0],intend_for_processing_after_transfer(companyA_Ireland,personal_data(personalData),o)).
+node([o,0,a,2,o,1,a,0],process(companyA_Ireland,personal_data(personalData),o)).
+node([o,0,a,3],third_country_or_international_organisation(thirdCountry,o)).
+node([o,0,a,3,o,0,a,0],third_country(thirdCountry,o)).
+node([o,0,a,3,o,0,a,0,o,0,a,0],not_EEA_country(thirdCountry,o)).
+node([o,0,e,4],subject_to_appropriate_safeguards(companyA_Ireland,o)).
+node([o,0,e,4,o,0,a,0],has_provided(companyA_Ireland,appropriate_safeguards(BCR),o)).
+node([o,0,e,4,o,0,a,1],appropriate_safeguards(BCR,o)).
+node([o,0,e,4,o,0,a,1,o,0,a,0],binding_corporate_rules_in_accordance_with_Article_47(o)).
+node([o,0,e,4,o,0,a,2],on_condition_that_enforceble_data_subject_right_and_effective_legal_remedies_for_data_subjects_are_available(o)).

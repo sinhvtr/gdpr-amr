@@ -1,0 +1,185 @@
+This is a script in CYGWIN interface.
+From windows system, you could click "prolegEng190804"
+then,
+(demo1) put "[simplechintaiL]." to the prompt "?-" and run "demo." or "demob.".
+(demo2) put "[chintairulebase, proleg_fact]." to the prompt "?-" and run "demo." or "demob.". 
+
+[shell]$ swipl
+Welcome to SWI-Prolog (threaded, 64 bits, version 7.6.4)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+
+
+[prolegEng190804, simplechintai].
+
+% ----several warning messages----
+
+true.
+
+demo.
+  plaintiff' tried to prove ''"'cancellation_due_to_sublease'"''.'
+  'To prove ''"'cancellation_due_to_sublease'"'','
+  'we need to prove the following requisites:'
+
+      requisite1': 'effective_lease_contract
+      requisite2': 'effective_sublease_contract
+      requisite3': 'using_leased_thing
+      requisite4': 'manifestation_cancellation
+
+    plaintiff' tried to prove ''"'effective_lease_contract'"''.'
+    'To prove ''"'effective_lease_contract'"'','
+    'we need to prove the following requisites:'
+
+        requisite1': 'agreement_of_lease_contract
+        requisite2': 'handover_based_on_the_lease_contract
+
+      plaintiff' tried to prove ''"'agreement_of_lease_contract'"''.'
+        '"'agreement_of_lease_contract'"'' is over the stringent belief level.'
+      plaintiff' successfully proved ''"'agreement_of_lease_contract'"''.'
+      plaintiff' tried to prove ''"'handover_based_on_the_lease_contract'"''.'
+        '"'handover_based_on_the_lease_contract'"'' is over the stringent belief level.'
+      plaintiff' successfully proved ''"'handover_based_on_the_lease_contract'"''.'
+    plaintiff' successfully proved ''"'effective_lease_contract'"''.'
+    plaintiff' tried to prove ''"'effective_sublease_contract'"''.'
+    'To prove ''"'effective_sublease_contract'"'','
+    'we need to prove the following requisites:'
+
+        requisite1': 'agreement_of_sublease_contract
+        requisite2': 'handover_based_on_the_sublease_contract
+
+      plaintiff' tried to prove ''"'agreement_of_sublease_contract'"''.'
+        '"'agreement_of_sublease_contract'"'' is over the stringent belief level.'
+      plaintiff' successfully proved ''"'agreement_of_sublease_contract'"''.'
+      plaintiff' tried to prove ''"'handover_based_on_the_sublease_contract'"''.'
+        '"'handover_based_on_the_sublease_contract'"'' is over the stringent belief level.'
+      plaintiff' successfully proved ''"'handover_based_on_the_sublease_contract'"''.'
+    plaintiff' successfully proved ''"'effective_sublease_contract'"''.'
+    plaintiff' tried to prove ''"'using_leased_thing'"''.'
+      '"'using_leased_thing'"'' is over the stringent belief level.'
+    plaintiff' successfully proved ''"'using_leased_thing'"''.'
+    plaintiff' tried to prove ''"'manifestation_cancellation'"''.'
+      '"'manifestation_cancellation'"'' is over the stringent belief level.'
+    plaintiff' successfully proved ''"'manifestation_cancellation'"''.'
+    defendant' alleges ''"'approval_of_sublease'"'
+    ' as a defense against ''"'cancellation_due_to_sublease'"''.'
+      defendant' tried to prove ''"'approval_of_sublease'"''.'
+      'To prove ''"'approval_of_sublease'"'','
+      'we need to prove the following requisites:'
+
+          requisite1': 'approval_of_sublease_before_the_day
+
+        defendant' tried to prove ''"'approval_of_sublease_before_the_day'"''.'
+        defendant' failed to prove ''"'approval_of_sublease_before_the_day'"''.'
+      defendant' failed to prove ''"'approval_of_sublease'"''.'
+    defendant' failed to prove ''"'approval_of_sublease'"'
+    ' as a defense against ''"'cancellation_due_to_sublease'"''.'
+    defendant' alleges ''"'nonabuse_of_confidence'"'
+    ' as a defense against ''"'cancellation_due_to_sublease'"''.'
+      defendant' tried to prove ''"'nonabuse_of_confidence'"''.'
+      'To prove ''"'nonabuse_of_confidence'"'','
+      'we need to prove the following requisites:'
+
+          requisite1': 'fact_of_nonabuse_of_confidence(short_time_usage)
+
+        defendant' tried to prove ''"'fact_of_nonabuse_of_confidence(short_time_usage)'"''.'
+          '"'fact_of_nonabuse_of_confidence(short_time_usage)'"'' is over the stringent belief level.'
+        defendant' successfully proved ''"'fact_of_nonabuse_of_confidence(short_time_usage)'"''.'
+        plaintiff' alleges ''"'abuse_of_confidence'"'
+        ' as a defense against ''"'nonabuse_of_confidence'"''.'
+          plaintiff' tried to prove ''"'abuse_of_confidence'"''.'
+          'To prove ''"'abuse_of_confidence'"'','
+          'we need to prove the following requisites:'
+
+              requisite1': 'fact_of_abuse_of_confidence(complaint_about_sublessee_usage)
+
+            plaintiff' tried to prove ''"'fact_of_abuse_of_confidence(complaint_about_sublessee_usage)'"''.'
+              '"'fact_of_abuse_of_confidence(complaint_about_sublessee_usage)'"'' is over the stringent belief level.'
+            plaintiff' successfully proved ''"'fact_of_abuse_of_confidence(complaint_about_sublessee_usage)'"''.'
+          plaintiff' successfully proved ''"'abuse_of_confidence'"''.'
+        plaintiff' successfully proved ''"'abuse_of_confidence'"'
+        ' as a defense against ''"'nonabuse_of_confidence'"''.'
+      defendant' failed to prove ''"'nonabuse_of_confidence'"''.'
+    defendant' failed to prove ''"'nonabuse_of_confidence'"'
+    ' as a defense against ''"'cancellation_due_to_sublease'"''.'
+  plaintiff' successfully proved ''"'cancellation_due_to_sublease'"''.'
+true.
+
+demob.
+true.
+
+[prolegEng190804, chintairulebase, proleg_fact].
+
+% ----several warning messages----
+
+true.
+
+demo.
+  plaintiff tried to prove "cancellation_due_to_sublease(plaintiff,defendant,2019 year 6 month 18 day)".
+  To prove "cancellation_due_to_sublease(plaintiff,defendant,2019 year 6 month 18 day)",
+  we need to prove the following requisites:
+
+      requisite1: agreement_of_lease_contract(defendant,nonparty_A,this_real_estate,permonth(800 euro),2018 year 4 month 1 day,term_is_2years)
+      requisite2: handover_based_on_the_contract(defendant,nonparty_A,lease_contract(defendant,nonparty_A,this_real_estate,permonth(800 euro),2018 year 4 month 1 day,term_is_2years))
+      requisite3: make_use_of_or_take_the_profits_of_a_leased_thing(nonparty_A)
+      requisite4: manifestation_of_intention_of_cancellation(plaintiff,defendant,2019 year 6 month 18 day)
+
+    defendant admitted "agreement_of_lease_contract(defendant,nonparty_A,this_real_estate,permonth(800 euro),2018 year 4 month 1 day,term_is_2years)".
+    defendant admitted "handover_based_on_the_contract(defendant,nonparty_A,lease_contract(defendant,nonparty_A,this_real_estate,permonth(800 euro),2018 year 4 month 1 day,term_is_2years))".
+    defendant admitted "make_use_of_or_take_the_profits_of_a_leased_thing(nonparty_A)".
+    defendant admitted "manifestation_of_intention_of_cancellation(plaintiff,defendant,2019 year 6 month 18 day)".
+    defendant alleges "approval_of_sublease(plaintiff,defendant,2019 year 6 month 18 day)"
+     as a defense against "cancellation_due_to_sublease(plaintiff,defendant,2019 year 6 month 18 day)".
+      defendant tried to prove "approval_of_sublease(plaintiff,defendant,2019 year 6 month 18 day)".
+      To prove "approval_of_sublease(plaintiff,defendant,2019 year 6 month 18 day)",
+      we need to prove the following requisites:
+
+          requisite1: date_of_approval_of_sublease(plaintiff,defendant,2017 year 12 month 6 day)
+          requisite2: before_the_day(2017 year 12 month 6 day,2019 year 6 month 18 day)
+
+        defendant tried to prove "date_of_approval_of_sublease(plaintiff,defendant,2017 year 12 month 6 day)".
+        defendant failed to prove "date_of_approval_of_sublease(plaintiff,defendant,2017 year 12 month 6 day)".
+      defendant failed to prove "approval_of_sublease(plaintiff,defendant,2019 year 6 month 18 day)".
+    defendant failed to prove "approval_of_sublease(plaintiff,defendant,2019 year 6 month 18 day)"
+     as a defense against "cancellation_due_to_sublease(plaintiff,defendant,2019 year 6 month 18 day)".
+    defendant alleges "nonabuse_of_confidence"
+     as a defense against "cancellation_due_to_sublease(plaintiff,defendant,2019 year 6 month 18 day)".
+      defendant tried to prove "nonabuse_of_confidence".
+      To prove "nonabuse_of_confidence",
+      we need to prove the following requisites:
+
+          requisite1: fact_of_nonabuse_of_confidence(short_time_usage)
+
+        defendant tried to prove "fact_of_nonabuse_of_confidence(short_time_usage)".
+          "fact_of_nonabuse_of_confidence(short_time_usage)" is over the stringent belief level.
+        defendant successfully proved "fact_of_nonabuse_of_confidence(short_time_usage)".
+        plaintiff alleges "abuse_of_confidence"
+         as a defense against "nonabuse_of_confidence".
+          plaintiff tried to prove "abuse_of_confidence".
+          To prove "abuse_of_confidence",
+          we need to prove the following requisites:
+
+              requisite1: fact_of_abuse_of_confidence(complaint_about_sublessee_usage)
+
+            plaintiff tried to prove "fact_of_abuse_of_confidence(complaint_about_sublessee_usage)".
+              "fact_of_abuse_of_confidence(complaint_about_sublessee_usage)" is over the stringent belief level.
+            plaintiff successfully proved "fact_of_abuse_of_confidence(complaint_about_sublessee_usage)".
+          plaintiff successfully proved "abuse_of_confidence".
+        plaintiff successfully proved "abuse_of_confidence"
+         as a defense against "nonabuse_of_confidence".
+      defendant failed to prove "nonabuse_of_confidence".
+    defendant failed to prove "nonabuse_of_confidence"
+     as a defense against "cancellation_due_to_sublease(plaintiff,defendant,2019 year 6 month 18 day)".
+
+  plaintiff successfully proved "cancellation_due_to_sublease(plaintiff,defendant,2019 year 6 month 18 day)".
+true.
+
+demob.
+true.
+
+halt.
+
+[shell]$
