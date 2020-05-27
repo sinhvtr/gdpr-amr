@@ -638,13 +638,7 @@
                         :ARG0 (l2 / law :name (n / name :op1 "Article" :op2 "45" :op3 "(3)"))))))
 
 # ::id article_46_2
-# ::snt The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authorisation from a supervisory authority, by:
-    (a) a legally binding and enforceable instrument between public authorities or bodies;
-    (b) binding corporate rules in accordance with Article 47;
-    (c) standard data protection clauses adopted by the Commission in accordance with the examination procedure referred to in Article 93(2);
-    (d) standard data protection clauses adopted by a supervisory authority and approved by the Commission pursuant to the examination procedure referred to in Article 93(2);
-    (e) an approved code of conduct pursuant to Article 40 together with binding and enforceable commitments of the controller or processor in the third country to apply the appropriate safeguards, including as regards data subjects' rights; or
-    (f) an approved certification mechanism pursuant to Article 42 together with binding and enforceable commitments of the controller or processor in the third country to apply the appropriate safeguards, including as regards data subjects' rights.
+# ::snt The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authorisation from a supervisory authority, by: (a) a legally binding and enforceable instrument between public authorities or bodies; (b) binding corporate rules in accordance with Article 47; (c) standard data protection clauses adopted by the Commission in accordance with the examination procedure referred to in Article 93(2); (d) standard data protection clauses adopted by a supervisory authority and approved by the Commission pursuant to the examination procedure referred to in Article 93(2); (e) an approved code of conduct pursuant to Article 40 together with binding and enforceable commitments of the controller or processor in the third country to apply the appropriate safeguards, including as regards data subjects' rights; or (f) an approved certification mechanism pursuant to Article 42 together with binding and enforceable commitments of the controller or processor in the third country to apply the appropriate safeguards, including as regards data subjects' rights.
 (p / possible-01
       :ARG1 (p2 / provide-01
             :ARG0 (o / or
@@ -710,3 +704,136 @@
 
 # ::id article_7_2
 # ::snt If the data subject's consent is given in the context of a written declaration which also concerns other matters, the request for consent shall be presented in a manner which is clearly distinguishable from the other matters, in an intelligible and easily accessible form, using clear and plain language. Any part of such a declaration which constitutes an infringement of this Regulation shall not be binding.
+(m / multi-sentence
+      :snt1 (p / present-01
+            :ARG1 (r / request-01
+                  :ARG1 c4
+                  :ARG0-of (u / use-01
+                        :ARG1 (l / language
+                              :mod (a4 / and
+                                    :op1 (c3 / clear-06)
+                                    :op2 (p5 / plain)))))
+            :manner (a / and
+                  :op1 (d / distinguish-01
+                        :ARG1 r
+                        :ARG2 (m2 / matter
+                              :mod (o / other))
+                        :ARG1-of (p2 / possible-01)
+                        :ARG1-of (c2 / clear-06))
+                  :op2 (f / form
+                        :ARG1-of (a2 / and
+                              :op1 (a3 / access-01
+                                    :ARG1-of (p3 / possible-01)
+                                    :ARG1-of (e / easy-05))
+                              :op2 (i2 / intelligent-01
+                                    :ARG1-of (p4 / possible-01)))))
+            :condition (g / give-01
+                  :ARG1 (c4 / consent-01
+                        :poss (s / subject
+                              :topic (d2 / data)))
+                  :condition (d3 / declare-02
+                        :ARG1-of (w / write-01)
+                        :ARG0-of (c / concern-01
+                              :ARG1 (m3 / matter
+                                    :mod (o2 / other))
+                              :mod (a5 / also)))))
+      :snt2 (b / bind-01
+            :ARG1 (p6 / part
+                  :poss d3
+                  :mod (a6 / any)
+                  :ARG0-of (c5 / constitute-01
+                        :ARG1 (i3 / infringe-01
+                              :poss (l2 / law :name (n / name :op1 "Regulation")))))))
+# ::id article_7_3
+# ::snt The data subject shall have the right to withdraw his or her consent at any time. The withdrawal of consent shall not affect the lawfulness of processing based on consent before its withdrawal. Prior to giving consent, the data subject shall be informed thereof. It shall be as easy to withdraw as to give consent.
+(m / multi-sentence
+      :snt1 (r / right-05
+            :ARG1 (s / subject
+                  :topic (d / data))
+            :ARG2 (w / withdraw-01
+                  :ARG1 (c / consent-01
+                        :poss s)
+                  :time (a / anytime)))
+      :snt2 (a2 / affect-01
+            :ARG0 w
+            :ARG1 (l / lawfulness
+                  :poss (p / process-01
+                        :ARG1-of (b / base-02
+                              :ARG2 (c2 / consent-01))
+                        :time (b2 / before
+                              :op1 (w2 / withdraw-01
+                                    :poss c2)))))
+      :snt3 (i2 / inform-01
+            :ARG1 s
+            :time (p2 / prior
+                  :op1 (g / give-01
+                        :ARG1 (c3 / consent-01)))
+            :mod (t / thereof))
+      :snt4 (h / have-degree-91
+            :ARG1 (w3 / withdraw-01
+                  :ARG1 c4)
+            :ARG2 (e / easy-05)
+            :ARG3 (e2 / equal)
+            :ARG4 (g2 / give-01
+                  :ARG1 (c4 / consent-01))))
+
+# ::id article_7_4
+# ::snt When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.
+(t / take-01
+      :ARG1 (a / account
+            :mod (u / utmost))
+      :ARG2 (p / perform-01
+            :ARG0 (c / contract)
+            :ARG2-of (i2 / include-91
+                  :ARG1 (p2 / provide-01
+                        :ARG1 (s / service)))
+            :condition (c2 / consent-01
+                  :ARG1 (p3 / process-01
+                        :ARG1 (d / data
+                              :ARG1-of (p4 / personal-02)))
+                  :ARG1-of (n / need-01
+                        :ARG0 p)))
+      :time (a2 / assess-01
+            :ARG1 (c3 / consent-01
+                  :ARG1-of (g / give-01
+                        :ARG1-of (o / or
+                              :op1 (f / free-04)
+                              :op2 (f2 / free-04 :polarity -))))))
+
+# ::id article_7_0
+# ::snt Conditions for consent
+(c / consent-01
+      :condition (c2 / condition))
+
+# ::id article_1_0
+# ::snt Subject-matter and objectives
+(a / and
+      :op1 (m / matter-01
+            :ARG1 (s / subject))
+      :op2 (o / objective))
+
+# ::id article_2_0
+# ::snt Material scope
+(s / scope
+      :topic (m / material))
+
+# ::id article_3_0
+# ::snt Territorial scope
+(s / scope
+      :topic (t / territorial))
+
+# ::id article_4_0
+# ::snt Definitions - For the purposes of this Regulation:
+(d / define-01
+      :purpose (l / law :name (n / name :op1 "Regulation")))
+
+# ::id article_6_0
+# ::snt Lawfulness of processing
+(l / lawfulness
+      :poss (p / process-01))
+
+# ::id article_44_0
+# ::snt General principle for transfers
+(p / principle
+      :ARG1-of (g / general-02)
+      :purpose (t / transfer-01))
