@@ -287,9 +287,7 @@
                   :location o2)))
                   
 # ::id article_3_2
-# ::snt This Regulation applies to the processing of personal data of data subjects who are in the Union by a controller or processor not established in the Union, where the processing activities are related to:
-    (a) the offering of goods or services, irrespective of whether a payment of the data subject is required, to such data subjects in the Union; or
-    (b) the monitoring of their behaviour as far as their behaviour takes place within the Union.
+# ::snt This Regulation applies to the processing of personal data of data subjects who are in the Union by a controller or processor not established in the Union, where the processing activities are related to: (a) the offering of goods or services, irrespective of whether a payment of the data subject is required, to such data subjects in the Union; or (b) the monitoring of their behaviour as far as their behaviour takes place within the Union.
 (a / apply-02
       :ARG1 (r / regulate-01)
       :ARG2 (p / process-01
@@ -837,3 +835,37 @@
 (p / principle
       :ARG1-of (g / general-02)
       :purpose (t / transfer-01))
+
+# ::id article_46_0
+# ::snt Transfers subject to appropriate safeguards
+(t / transfer-01
+      :ARG1 (s / subject)
+      :ARG2 (s2 / safeguard
+            :ARG1-of (a / appropriate-02)))
+
+# ::id article_2_1
+# ::snt This Regulation applies to the processing of personal data wholly or partly by automated means and to the processing other than by automated means of personal data which form part of a filing system or are intended to form part of a filing system.
+(a / apply-02
+      :ARG1 (l / law :name (n / name :op1 "Regulation"))
+      :ARG2 (a2 / and
+            :op1 (p / process-01
+                  :ARG1 (d / data
+                        :ARG1-of (p2 / personal-02))
+                  :degree (o / or
+                        :op1 (w / whole)
+                        :op2 (p3 / part))
+                  :medium (m / mean
+                        :ARG1-of (a3 / automate-01)))
+            :op2 (p4 / process-01
+                  :ARG1 (o2 / other)
+                  :medium (m2 / mean
+                        :ARG1-of (a4 / automate-01)
+                        :poss (d2 / data
+                              :ARG1-of (p5 / personal-02))
+                        :ARG0-of (o3 / or
+                              :op1 (f / form-01
+                                    :ARG1 (p6 / part
+                                          :part-of (s / system
+                                                :ARG1-of (f2 / fill-06))))
+                              :op2 (i2 / intend-01
+                                    :ARG1 f))))))
