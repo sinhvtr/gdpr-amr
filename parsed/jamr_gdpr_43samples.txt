@@ -1,0 +1,1171 @@
+# ::snt The protection of natural persons in relation to the processing of personal data is a fundamental right.
+# ::tok The protection of natural persons in relation to the processing of personal data is a fundamental right .
+# ::alignments 16-17|0 15-16|0.1 12-13|0.0.1.0.0 11-12|0.0.1.0.0.0 9-10|0.0.1.0 6-7|0.0.1 4-5|0.0.0 3-4|0.0.0.0 1-2|0.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:37:58.097
+(r / right-05 
+      :ARG2 (p4 / protect-01 
+            :ARG0 (p3 / person 
+                  :ARG1-of (n / natural-03)) 
+            :ARG1-of (r2 / relate-01 
+                  :ARG2 (p2 / process-01 
+                        :ARG1 (d / data 
+                              :ARG1-of (p / personal-02))))) 
+      :mod (f / fundamental))
+
+# ::snt Article 8(1) of the Charter of Fundamental Rights of the European Union (the 'Charter') and Article 16(1) of the Treaty on the Functioning of the European Union (TFEU) provide that everyone has the right to the protection of personal data concerning him or her.
+# ::tok Article 8(1 ) of the Charter of Fundamental Rights of the European Union ( the ' Charter ' ) and Article 16(1 ) of the Treaty on the Functioning of the European Union ( TFEU ) provide that everyone has the right to the protection of personal data concerning him or her .
+# ::alignments 51-52|0.0 50-51|0.0.0 48-49|0 47-48|0.1 46-47|0.1.0 44-45|0.1.1 41-42|0.1.1.1 38-39|0.1.1.1.0 36-37|0.1.1.1.1 31-33|0.1.1.1.1.0.2+0.1.1.1.1.0.1.1+0.1.1.1.1.0.1.0+0.1.1.1.1.0.1+0.1.1.1.1.0 28-29|0.1.1.1.1.0.0 25-26|0.1.1.1.1.1 19-20|0.1.1.0 16-17|0.1.1.0.1 11-13|0.1.1.0.0.2.1+0.1.1.0.0.2.0.1+0.1.1.0.0.2.0.0+0.1.1.0.0.2.0+0.1.1.0.0.2 8-9|0.1.1.0.0 7-8|0.1.1.0.0.1 5-6|0.1.1.0.0.0 0-1|0.1.1.0.0.0.0.0.0+0.1.1.0.0.0.0.0+0.1.1.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:37:59.672
+(c / concern-02 
+      :ARG0 (s / she 
+            :op1-of (o / or)) 
+      :ARG1 (d / data 
+            :ARG1-of (p / personal-02) 
+            :mod-of (p2 / protect-01 
+                  :ARG1 (a / and 
+                        :op1 (r2 / right 
+                              :ARG1-of (c3 / chart-01 
+                                    :part (o4 / organization 
+                                          :name (n3 / name 
+                                                :op1 "Article"))) 
+                              :mod (f2 / fundamental) 
+                              :poss (o3 / organization 
+                                    :name (n2 / name 
+                                          :op1 "European" 
+                                          :op2 "Union") 
+                                    :wiki "European_Union")) 
+                        :op2 (c2 / chart-01)) 
+                  :ARG2-of (r / right-05 
+                        :ARG1 (e / everyone) 
+                        :ARG1-of (p3 / provide-01 
+                              :ARG0 (o2 / organization 
+                                    :ARG1-of (f / function-01) 
+                                    :name (n / name 
+                                          :op1 "European" 
+                                          :op2 "Union") 
+                                    :wiki "European_Union") 
+                              :ARG2 (t / treaty))))))
+
+# ::snt The principles of, and rules on the protection of natural persons with regard to the processing of their personal data should, whatever their nationality or residence, respect their fundamental rights and freedoms, in particular their right to the protection of personal data.
+# ::tok The principles of , and rules on the protection of natural persons with regard to the processing of their personal data should , whatever their nationality or residence , respect their fundamental rights and freedoms , in particular their right to the protection of personal data .
+# ::alignments 45-46|0.0.0.2.4.0.0.0 44-45|0.0.0.2.4.0.0.0.0 42-43|0.0.0.2.4.0.0 39-40|0.0.0.2.4.0 37-38|0.0.0.2.4 34-35|0.0.0.2.3 33-34|0.0 32-33|0.0.0 31-32|0.0.0.1 29-30|0.0.0.0 27-28|0.0.0.0.0.1 26-27|0.0.0.0.0 25-26|0.0.0.0.0.0 23-24|0.0.0.0.0.0.0 21-22|0 20-21|0.0.0.2.1.0.0.0 19-20|0.0.0.2.1.0.0.0.0 16-17|0.0.0.2.1.0.0 13-14|0.0.0.2.1.0 11-12|0.0.0.2.0.0 10-11|0.0.0.2.0.0.0 8-9|0.0.0.2.0 5-6|0.0.0.2.2 4-5|0.0.0.2 1-2|0.0.0.2.1 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:38:02.045
+(r5 / recommend-01 
+      :op1-of (a / and 
+            :op2 (r2 / right 
+                  :ARG1-of (r3 / respect-01 
+                        :ARG0 (o / or 
+                              :op1 (n / nationality 
+                                    :mod (w / whatever)) 
+                              :op2 (r4 / reside-01))) 
+                  :mod (f2 / fundamental) 
+                  :op3-of (a2 / and 
+                        :ARG1-of (p7 / protect-01 
+                              :ARG0 (p6 / person 
+                                    :ARG1-of (n2 / natural-03))) 
+                        :op1 (p8 / principle 
+                              :ARG0-of (r6 / regard-01 
+                                    :ARG1 (p5 / process-01 
+                                          :ARG1 (d2 / data 
+                                                :ARG1-of (p4 / personal-02))))) 
+                        :op2 (r7 / rule) 
+                        :op4 (f / free-04) 
+                        :poss-of (p3 / particular 
+                              :ARG1 (r / right-05 
+                                    :ARG2 (p2 / protect-01 
+                                          :mod (d / data 
+                                                :ARG1-of (p / personal-02)))))))))
+
+# ::snt This Regulation is intended to contribute to the accomplishment of an area of freedom, security and justice and of an economic union, to economic and social progress, to the strengthening and the convergence of the economies within the internal market, and to the well-being of natural persons.
+# ::tok This Regulation is intended to contribute to the accomplishment of an area of freedom , security and justice and of an economic union , to economic and social progress , to the strengthening and the convergence of the economies within the internal market , and to the well - being of natural persons .
+# ::alignments 52-53|0.0.2.1.0 51-52|0.0.2.1.0.0 47-48|0.0.2.1 44-45|0.0.2 42-43|0.0.2.0.1.0 41-42|0.0.2.0.1 38-39|0.0.2.0.0 35-36|0.0.2.0.2.0 33-34|0.0.2.0.2 32-33|0.0.2.0 28-29|0.0 27-28|0.0.0 26-27|0 25-26|0.0.1 22-23|0.0.2.0.2.1.0.0.1.0 21-22|0.0.2.0.2.1.0.0.0.0 18-19|0.0.2.0.2.1 17-18|0.0.2.0.2.1.0.0.1 16-17|0.0.2.0.2.1.0.0 15-16|0.0.2.0.2.1.0 13-14|0.0.2.0.2.1.0.0.0 11-12|0.0.2.0.2.1.0.0.0.1 8-9|0.0.2.0.2.1.0.0.0.1.0 5-6|0.0.2.0.2.1.0.0.0.1.0.0 3-4|0.0.2.0.2.1.0.0.0.1.0.0.1 1-2|0.0.2.0.2.1.0.0.0.1.0.0.0.1.0+0.0.2.0.2.1.0.0.0.1.0.0.0.1+0.0.2.0.2.1.0.0.0.1.0.0.0 0-1|0.0.2.0.2.1.0.0.0.1.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:38:03.734
+(a3 / and 
+      :op1 (p2 / progress-01 
+            :ARG1 (s2 / society) 
+            :mod (e2 / economy) 
+            :op1-of (a / and 
+                  :op2 (s / strengthen-01 
+                        :ARG0 (e / economy) 
+                        :ARG0-of (i / internal-02 
+                              :ARG1 (m / market)) 
+                        :op1-of (a2 / and 
+                              :op2 (c / convergence) 
+                              :op2-of (a4 / and 
+                                    :op1 (s3 / security 
+                                          :op2-of (a5 / and 
+                                                :op1 (f / free-04 
+                                                      :ARG1 (e3 / economy) 
+                                                      :mod-of (a6 / area 
+                                                            :poss-of (a7 / accomplishment 
+                                                                  :ARG2-of (c2 / contribute-01 
+                                                                        :ARG1 (t / thing 
+                                                                              :mod (t2 / this) 
+                                                                              :name (n2 / name 
+                                                                                    :op1 "Regulation")) 
+                                                                        :ARG1-of (i2 / intend-01))))) 
+                                                :op3 (j / justice 
+                                                      :ARG1-of (u / union-02))))))) 
+                  :op3 (w / well 
+                        :topic (p / person 
+                              :ARG1-of (n / natural-03))))))
+
+# ::snt Directive 95/46/EC of the European Parliament and of the Council (4) seeks to harmonise the protection of fundamental rights and freedoms of natural persons in respect of processing activities and to ensure the free flow of personal data between Member States.
+# ::tok Directive 95/46 / EC of the European Parliament and of the Council ( 4 ) seeks to harmonise the protection of fundamental rights and freedoms of natural persons in respect of processing activities and to ensure the free flow of personal data between Member States .
+# ::alignments 44-45|0.0.0.0.0 43-44|0.0.0.0.1+0.0.0.0 41-42|0.1.1.0.0 40-41|0.1.1.0.0.0 38-39|0.1.1.0 37-38|0.1.1.0.1 35-36|0.1.1 33-34|0.1 32-33|0.1.0.0.0.1.0 31-32|0.1.0.0.0.0 29-30|0.1.0.0.0.1 27-28|0.1.0.0.1.0 26-27|0.1.0.0.1.0.0 24-25|0.1.0.0.1 23-24|0.1.0.0 22-23|0.1.0 21-22|0.1.0.0.1.0.1 19-20|0.1.0.0.0 15-16|0 13-14|0.2 11-12|0.3.0 8-9|0.3 6-8|0.0.0.2+0.0.0.1.1+0.0.0.1.0+0.0.0.1+0.0.0 2-3|0.1.0.0.1.1 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:38:07.750
+(s2 / seek-01 
+      :ARG0 (d2 / directive 
+            :poss (o / organization 
+                  :ARG1-of (h / have-org-role-91 
+                        :ARG0 (s / state) 
+                        :ARG2 (m / member)) 
+                  :name (n2 / name 
+                        :op1 "European" 
+                        :op2 "Parliament") 
+                  :wiki "European_Parliament")) 
+      :ARG1 (a / and 
+            :op1 (r2 / right 
+                  :op1-of (a3 / and 
+                        :ARG1-of (p4 / protect-01 
+                              :ARG1-of (p2 / process-01) 
+                              :ARG1-of (r / respect-01 
+                                    :ARG0 (a2 / activity-06))) 
+                        :op2 (f3 / free-04 
+                              :ARG1 (p3 / person 
+                                    :ARG1-of (n / natural-03) 
+                                    :mod (f4 / fundamental)) 
+                              :op1-of (s3 / slash)))) 
+            :op2 (e / ensure-01 
+                  :ARG1 (f / flow-01 
+                        :ARG1 (d / data 
+                              :ARG1-of (p / personal-02)) 
+                        :ARG1-of (f2 / free-04)))) 
+      :ARG2 4 
+      :op2-of (a4 / and 
+            :op1 (c / council)))
+
+# ::snt The processing of personal data should be designed to serve mankind.
+# ::tok The processing of personal data should be designed to serve mankind .
+# ::alignments 10-11|0.0.1.0 9-10|0.0.1 7-8|0.0 5-6|0 4-5|0.0.0.0 3-4|0.0.0.0.0 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:38:07.797
+(r / recommend-01 
+      :ARG1 (d / design-01 
+            :ARG1 (p2 / process-01 
+                  :ARG1 (d2 / data 
+                        :ARG1-of (p / personal-02))) 
+            :ARG3 (s / serve-01 
+                  :ARG1 (m / mankind))))
+
+# ::snt The right to the protection of personal data is not an absolute right; it must be considered in relation to its function in society and be balanced against other fundamental rights, in accordance with the principle of proportionality.
+# ::tok The right to the protection of personal data is not an absolute right ; it must be considered in relation to its function in society and be balanced against other fundamental rights , in accordance with the principle of proportionality .
+# ::alignments 39-40|0.2.1.1.0 37-38|0.2.1.1 34-35|0.2.1 31-32|0.2.0 30-31|0.2.0.0 29-30|0.2.0.1 27-28|0.2 25-26|0 24-25|0.0.1 22-23|0.0 19-20|0.0.0 17-18|0.1 13-14|0.1.0 12-13|0.1.0.0.1 11-12|0.1.0.0.1.0 9-10|0.2.1.0 7-8|0.1.0.0.0.0 6-7|0.1.0.0.0.0.0 4-5|0.1.0.0.0 1-2|0.1.0.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:38:08.226
+(a2 / and 
+      :ARG1-of (f2 / function-01 
+            :ARG1-of (r2 / relate-01) 
+            :location (s / society)) 
+      :op1 (c / consider-01 
+            :op1-of (a3 / and 
+                  :domain (r4 / right-05 
+                        :ARG1 (p4 / protect-01 
+                              :mod (d / data 
+                                    :ARG1-of (p3 / personal-02))) 
+                        :ARG2-of (r3 / right-05 
+                              :mod (a4 / absolute))))) 
+      :op2 (b / balance-01 
+            :ARG1 (r / right 
+                  :mod (f / fundamental) 
+                  :mod (o / other)) 
+            :ARG1-of (a / accord-02 
+                  :ARG0 - 
+                  :ARG2 (p2 / principle 
+                        :poss (p / proportionality)))))
+
+# ::snt This Regulation respects all fundamental rights and observes the freedoms and principles recognised in the Charter as enshrined in the Treaties, in particular the respect for private and family life, home and communications, the protection of personal data, freedom of thought, conscience and religion, freedom of expression and information, freedom to conduct a business, the right to an effective remedy and to a fair trial, and cultural, religious and linguistic diversity.
+# ::tok This Regulation respects all fundamental rights and observes the freedoms and principles recognised in the Charter as enshrined in the Treaties , in particular the respect for private and family life , home and communications , the protection of personal data , freedom of thought , conscience and religion , freedom of expression and information , freedom to conduct a business , the right to an effective remedy and to a fair trial , and cultural , religious and linguistic diversity .
+# ::alignments 80-81|0.0.0.0.0.0.1.4.2 79-80|0.0.0.0.0.0.1.4.1 78-79|0.0.0.0.0.0.1.4 77-78|0.0.0.0.1.0.0.0 75-76|0.0.0.0.0.0.1.4.0 74-75|0.0.0.0.0.0.1 72-73|0.0.0.0.1.0.0.1.1.0 71-72|0.0.0.0.1.0.0.1.1 68-69|0.0.0.0.0.0.1.3.1 67-68|0.0.0.0.0.0.1.3.0 66-67|0.0.0.0.0.0.1.3.0.0 63-64|0.0.0.0.0.0.1.3 60-61|0.0.0.0.2.0.0 58-59|0.0.0.0.2.0 56-57|0.0.0.0.2 54-55|0.0.0.0.1.0.0.1.0 53-54|0.0 52-53|0 50-51|0.0.0 48-49|0.0.0.0.1.0.2 47-48|0.0.0.0.1.0 46-47|0.0.0.0.1.0.1 44-45|0.0.0.0.1.0.0.1 42-43|0.0.0.0.1.0.0 40-41|0.0.0.0.1.1 39-40|0.0.0.0.1.1.0 37-38|0.0.0.0.1 34-35|0.0.0.0.0 33-34|0.0.0.0 32-33|0.0.0.0.0.0.1.2 30-31|0.0.0.0.0.0.1.1 29-30|0.0.0.0.0.0.1.1.0 28-29|0.0.0.0.0.0 27-28|0.0.0.0.0.0.0 25-26|0.0.0.0.0.0.1.0 23-24|0.0.0.0.0.0.0.0.2 17-18|0.0.0.0.0.0.0.0.3.0.0.0.1 15-16|0.0.0.0.0.0.0.0.3.0.0.0.0.0.0.0+0.0.0.0.0.0.0.0.3.0.0.0.0.0.0+0.0.0.0.0.0.0.0.3.0.0.0.0.0 12-13|0.0.0.0.0.0.0.0.3.0.0.0.0 11-12|0.0.0.0.0.0.0.0.3.0.0.0.2 10-11|0.0.0.0.0.0.0.0.3.0.0.0 9-10|0.0.0.0.0.0.0.0.3.0.0 7-8|0.0.0.0.0.0.0.0.3.0 6-7|0.0.0.0.0.0.0.0.3 5-6|0.0.0.0.0.0.0.0.1 4-5|0.0.0.0.0.0.0.0.1.0 3-4|0.0.0.0.0.0.0.0.1.1 2-3|0.0.0.0.0.0.0.0 1-2|0.0.0.0.0.0.0.0.0.1.0+0.0.0.0.0.0.0.0.0.1+0.0.0.0.0.0.0.0.0 0-1|0.0.0.0.0.0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:38:21.157
+(e2 / express-01 
+      :op1-of (a4 / and 
+            :ARG1-of (f3 / free-04 
+                  :op3-of (a6 / and 
+                        :op1 (c4 / communicate-01 
+                              :op2-of (a7 / and 
+                                    :op1 (p3 / private-03 
+                                          :ARG2-of (r8 / respect-01 
+                                                :ARG0 (t3 / thing 
+                                                      :mod (t4 / this) 
+                                                      :name (n2 / name 
+                                                            :op1 "Regulation")) 
+                                                :ARG1 (r7 / right 
+                                                      :mod (f7 / fundamental) 
+                                                      :quant (a10 / all)) 
+                                                :manner (p4 / particular) 
+                                                :op1-of (a9 / and 
+                                                      :op2 (o2 / observe-01 
+                                                            :ARG1 (f6 / free-04 
+                                                                  :op1-of (a8 / and 
+                                                                        :ARG1-of (r6 / recognize-01 
+                                                                              :ARG0 (o / organization 
+                                                                                    :name (n / name 
+                                                                                          :op1 "Charter"))) 
+                                                                        :ARG1-of (e3 / enshrine-01) 
+                                                                        :op2 (p5 / principle))))))) 
+                                    :op3 (a2 / and 
+                                          :ARG1-of (r5 / respect-01) 
+                                          :op1 (l2 / life 
+                                                :mod (f5 / family)) 
+                                          :op2 (h / home) 
+                                          :op3 (r3 / right-05 
+                                                :ARG1 (r2 / remedy-01 
+                                                      :ARG0-of (e / effective-04)) 
+                                                :ARG2 (a3 / and)) 
+                                          :op4 (a / and 
+                                                :op1 (c / culture) 
+                                                :op2 (l / linguistic) 
+                                                :op3 (d / diversity))))) 
+                        :op2 (p2 / protect-01 
+                              :ARG1 (a5 / and 
+                                    :ARG1-of (f4 / free-04 
+                                          :ARG0 (r / religion) 
+                                          :ARG3 (t2 / think-01 
+                                                :ARG0 (i / information) 
+                                                :ARG1 (f / fair 
+                                                      :mod-of (t / trial)))) 
+                                    :op1 (c3 / conscience) 
+                                    :op2 (r4 / religion)) 
+                              :mod (d2 / data 
+                                    :ARG1-of (p / personal-02))) 
+                        :op4 (f2 / free-04 
+                              :ARG1 (c2 / conduct-01 
+                                    :ARG1 (b / business)))))))
+
+# ::snt This Regulation lays down rules relating to the protection of natural persons with regard to the processing of personal data and rules relating to the free movement of personal data.
+# ::tok This Regulation lays down rules relating to the protection of natural persons with regard to the processing of personal data and rules relating to the free movement of personal data .
+# ::alignments 29-30|0.1.0.1.0 28-29|0.1.0.1.0.0 26-27|0.1.0.1 25-26|0.1.0.1.1 22-23|0.1.0 21-22|0.1.0.0.1 20-21|0.1.0.0 19-20|0.1.0.0.0.1 18-19|0.1.0.0.0.1.0 16-17|0.1.0.0.0 13-14|0.1.0.0.0.0 11-12|0.0.0.0.0 10-11|0.0.0.0.0.0 8-9|0.0.0.0 5-6|0.0.0 4-5|0.1 2-3|0 1-2|0.0.2.0+0.0.2+0.0 0-1|0.0.1 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:38:22.815
+(l / lay-01 
+      :ARG0 (t / thing 
+            :ARG1-of (r4 / relate-01 
+                  :ARG2 (p5 / protect-01 
+                        :ARG0 (p4 / person 
+                              :ARG1-of (n / natural-03)))) 
+            :mod (t2 / this) 
+            :name (n2 / name 
+                  :op1 "Regulation")) 
+      :ARG1 (r5 / rule 
+            :ARG0-of (r / relate-01 
+                  :ARG1 (a / and 
+                        :ARG1-of (p3 / process-01 
+                              :ARG1-of (r3 / regard-01) 
+                              :mod (d2 / data 
+                                    :ARG1-of (p2 / personal-02))) 
+                        :op1 (r2 / rule)) 
+                  :ARG2 (m / movement-07 
+                        :ARG1 (d / data 
+                              :ARG1-of (p / personal-02)) 
+                        :ARG1-of (f / free-04)))))
+
+# ::snt This Regulation protects fundamental rights and freedoms of natural persons and in particular their right to the protection of personal data.
+# ::tok This Regulation protects fundamental rights and freedoms of natural persons and in particular their right to the protection of personal data .
+# ::alignments 20-21|0.3.0.0 19-20|0.3.0.0.0 17-18|0.3.0 14-15|0.3 12-13|0.3.0.0.0.0 10-11|0 9-10|0.2.0 8-9|0.2.0.0 6-7|0.2 5-6|0.0.1 4-5|0.1 3-4|0.2.0.1 2-3|0.0 1-2|0.0.0.1.0+0.0.0.1+0.0.0 0-1|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:38:23.664
+(a / and 
+      :op1 (p5 / protect-01 
+            :ARG0 (t / thing 
+                  :mod (t2 / this) 
+                  :name (n2 / name 
+                        :op1 "Regulation")) 
+            :ARG1 (a2 / and)) 
+      :op2 (r2 / right) 
+      :op3 (f / free-04 
+            :ARG1 (p4 / person 
+                  :ARG1-of (n / natural-03) 
+                  :mod (f2 / fundamental))) 
+      :op4 (r / right-05 
+            :ARG1 (p2 / protect-01 
+                  :mod (d / data 
+                        :ARG1-of (p / personal-02 
+                              :ARG0 (p3 / particular))))))
+
+# ::snt The free movement of personal data within the Union shall be neither restricted nor prohibited for reasons connected with the protection of natural persons with regard to the processing of personal data.
+# ::tok The free movement of personal data within the Union shall be neither restricted nor prohibited for reasons connected with the protection of natural persons with regard to the processing of personal data .
+# ::alignments 31-32|0.0.0.0.1.0.0 30-31|0.0.0.0.1.0.0.0 28-29|0.0.0.0.1.0 25-26|0.0.0.0.1 23-24|0.0.0.0.0 22-23|0.0.0.0.0.0 20-21|0.0.0.0 17-18|0.0.0 16-17|0.0 14-15|0.1 12-13|0 8-9|0.0.0.0.1.0.0.0.0.0.0+0.0.0.0.1.0.0.0.0.0+0.0.0.0.1.0.0.0.0 5-6|0.1.0.0 4-5|0.1.0.0.0 2-3|0.1.0 1-2|0.1.0.1 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:38:24.634
+(r3 / restrict-01 
+      :ARG1 (r2 / reason 
+            :ARG1-of (c / connect-01 
+                  :ARG2 (p4 / protect-01 
+                        :ARG0 (p3 / person 
+                              :ARG1-of (n / natural-03)) 
+                        :ARG1 (r / regard-01 
+                              :ARG1 (p2 / process-01 
+                                    :ARG1 (d / data 
+                                          :ARG1-of (p / personal-02 
+                                                :ARG0 (o / organization 
+                                                      :name (n2 / name 
+                                                            :op1 "Union"))))))))) 
+      :manner-of (p5 / prohibit-01 
+            :ARG1 (m / movement-07 
+                  :ARG1 (d2 / data 
+                        :ARG1-of (p6 / personal-02)) 
+                  :ARG1-of (f / free-04))))
+
+# ::snt This Regulation applies to the processing of personal data in the context of the activities of an establishment of a controller or a processor in the Union, regardless of whether the processing takes place in the Union or not.
+# ::tok This Regulation applies to the processing of personal data in the context of the activities of an establishment of a controller or a processor in the Union , regardless of whether the processing takes place in the Union or not .
+# ::alignments 39-40|0.0 38-39|0.2.1.0.0.2 34-35|0.2.1.0.0.0 33-34|0.2.1.0.0 32-33|0.2.1.0 28-29|0.2.1.0.0.1.0+0.2.1.0.0.1 26-27|0.2.1.1.0.0+0.2.1.1.0+0.2.1.1 23-24|0.2.1 21-22|0.2 20-21|0.2.0 17-18|0 14-15|0.1 11-12|0.1.0 8-9|0.2.0.0.0 7-8|0.2.0.0.0.0 5-6|0.2.0.0 2-3|0.2.0.0.1 1-2|0.2.0.0.1.0.1.0+0.2.0.0.1.0.1+0.2.0.0.1.0 0-1|0.2.0.0.1.0.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:38:26.909
+(e / establish-01 
+      :ARG0 - 
+      :ARG0-of (a / activity-06 
+            :mod-of (c2 / context)) 
+      :ARG1 (o3 / or 
+            :op1 (c / control-01 
+                  :ARG1 (p5 / process-01 
+                        :ARG1 (d / data 
+                              :ARG1-of (p4 / personal-02)) 
+                        :ARG2-of (a2 / apply-02 
+                              :ARG1 (t2 / thing 
+                                    :mod (t3 / this) 
+                                    :name (n2 / name 
+                                          :op1 "Regulation"))))) 
+            :op2 (p3 / processor 
+                  :ARG1-of (p2 / process-01 
+                        :ARG0-of (t / take-10 
+                              :ARG1 (p / place) 
+                              :ARG1-of (r / regard-01 
+                                    :polarity -) 
+                              :manner (o / or))) 
+                  :location (o2 / organization 
+                        :name (n / name 
+                              :op1 "Union,")))))
+
+# ::snt This Regulation applies to the processing of personal data of data subjects who are in the Union by a controller or processor not established in the Union, where the processing activities are related to: (a) the offering of goods or services, irrespective of whether a payment of the data subject is required, to such data subjects in the Union; or (b) the monitoring of their behaviour as far as their behaviour takes place within the Union.
+# ::tok This Regulation applies to the processing of personal data of data subjects who are in the Union by a controller or processor not established in the Union , where the processing activities are related to : ( a ) the offering of goods or services , irrespective of whether a payment of the data subject is required , to such data subjects in the Union ; or ( b ) the monitoring of their behaviour as far as their behaviour takes place within the Union .
+# ::alignments 81-82|0.0.1.0.1 80-81|0.0.1.0 79-80|0.0.1 76-77|0.0.1.0.2 74-75|0.0.1.0.0.0.0.0.1.4.0 71-72|0.0.1.0.0.0.0.0.1.4 68-69|0.0.1.0.0.0.0.0.1.0 66-67|0.0.1.0.0.0.0.0.1 65-66|0.0.1.0.0.0.0.0.1.3 61-62|0 60-61|0.1 59-60|0.2 56-57|0.0 54-55|0.0.0.0 53-54|0.0.0.0.0 50-51|0.0.0 46-47|0.0.1.0.0.0.0.0.1.1.0.0.0.0.0 44-45|0.0.1.0.0.0.0.0.1.2.0.1 43-44|0.0.1.0.0.0.0.0.1.2.0 42-43|0.0.1.0.0.0.0.0.1.2.0.0 40-41|0.0.1.0.0.0.0.0.1.2 33-34|0.0.1.0.0.0.0.0.1.1.0.0.0 31-32|0.0.1.0.0.0.0.0.1.1.0.0.0.0 30-31|0.0.1.0.0.0.0.0.0.0 23-24|0.0.1.0.0.0.0.0.1.1.0.0.2.0 22-23|0.0.1.0.0.0.0.0.1.1.0.0.2.0.0 21-22|0.0.1.0.0.0.0.0.1.1.0.0.2 20-21|0.0.1.0.0.0.0.0.1.1.0.0 19-20|0.0.1.0.0.0.0.0.1.1.0 16-17|0.0.1.0.0.0.0.0.1.1.0.0.1.0.0+0.0.1.0.0.0.0.0.1.1.0.0.1.0+0.0.1.0.0.0.0.0.1.1.0.0.1 11-12|0.0.1.0.0.0.0.0.1.1 10-11|0.0.1.0.0.0.0.0.1.1.1 8-9|0.0.1.0.0.0.0.0 7-8|0.0.1.0.0.0.0.0.0 5-6|0.0.1.0.0.0.0 2-3|0.0.1.0.0.0 1-2|0.0.1.0.0.2.0+0.0.1.0.0.2+0.0.1.0.0 0-1|0.0.1.0.0.1 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:38:31.661
+(s / subject 
+      :ARG2-of (r / require-01 
+            :ARG1 (p2 / payment 
+                  :poss (s3 / subject 
+                        :mod (d2 / data))) 
+            :ARG1-of (b / behave-01 
+                  :ARG2-of (t / take-10 
+                        :ARG0 (t2 / thing 
+                              :ARG1-of (a3 / apply-02 
+                                    :ARG2 (p6 / process-01 
+                                          :ARG1 (d4 / data 
+                                                :ARG1-of (p5 / personal-02 
+                                                      :ARG1-of (p3 / process-01)) 
+                                                :poss (o / or 
+                                                      :domain (b3 / b) 
+                                                      :op1 (s5 / subject 
+                                                            :ARG1-of (c / control-01 
+                                                                  :op2-of (o4 / or 
+                                                                        :ARG0-of (r2 / relate-01 
+                                                                              :ARG1 (a2 / activity-06 
+                                                                                    :ARG1 (i / irrespective))) 
+                                                                        :op1 (o5 / organization 
+                                                                              :name (n / name 
+                                                                                    :op1 "Union")) 
+                                                                        :op3 (p4 / processor 
+                                                                              :ARG1-of (e / establish-01 
+                                                                                    :polarity -)))) 
+                                                            :mod (d3 / data)) 
+                                                      :op2 (o3 / offer-01 
+                                                            :ARG1 (o2 / or 
+                                                                  :op1 (g / good) 
+                                                                  :op2 (s4 / service))) 
+                                                      :op3 (a / and) 
+                                                      :op4 (m / monitor-01 
+                                                            :ARG1 (b2 / behave-01)))))) 
+                              :mod (t3 / this) 
+                              :name (n2 / name 
+                                    :op1 "Regulation")) 
+                        :ARG1 (p / place) 
+                        :degree (f / far)))) 
+      :mod (d / data) 
+      :mod (s2 / such))
+
+# ::snt This Regulation applies to the processing of personal data by a controller not established in the Union, but in a place where Member State law applies by virtue of public international law.
+# ::tok This Regulation applies to the processing of personal data by a controller not established in the Union , but in a place where Member State law applies by virtue of public international law .
+# ::alignments 32-33|0.0.0.0.0.0.0.0.0 31-32|0.0.0.0.0.0.0.0.0.0 30-31|0.0.0.0.2 28-29|0.0.0.0.0.0.0.0 26-27|0.0.0.0.0.0.0 25-26|0.0.0.0.0.0 24-25|0.0.0.0.0 23-24|0.0.0.0.1+0.0.0.0 21-22|0.0.0.0.0.0.0.1 18-19|0 16-17|0.0.0.1.0+0.0.0.1+0.0.0 13-14|0.0 12-13|0.0.2 11-12|0.0.1 8-9|0.1.1.0 7-8|0.1.1.0.0 5-6|0.1.1 2-3|0.1 1-2|0.1.0.1.0+0.1.0.1+0.1.0 0-1|0.1.0.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:38:33.180
+(c / contrast-01 
+      :ARG1 (e / establish-01 
+            :ARG0 (o / organization 
+                  :ARG1-of (h / have-org-role-91 
+                        :ARG0 (s / state 
+                              :topic-of (l2 / law 
+                                    :ARG1-of (a / apply-02 
+                                          :ARG0 (v / virtue 
+                                                :poss (l / law 
+                                                      :mod (i / international))) 
+                                          :location (p2 / place)))) 
+                        :ARG2 (m / member) 
+                        :time (p / public)) 
+                  :name (n / name 
+                        :op1 "Union,")) 
+            :ARG1 (c2 / control-01) 
+            :polarity -) 
+      :ARG2 (a2 / apply-02 
+            :ARG1 (t / thing 
+                  :mod (t2 / this) 
+                  :name (n2 / name 
+                        :op1 "Regulation")) 
+            :ARG2 (p4 / process-01 
+                  :ARG1 (d / data 
+                        :ARG1-of (p3 / personal-02)))))
+
+# ::snt 'personal data' means any information relating to an identified or identifiable natural person (‘data subject’); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person;
+# ::tok ' personal data ' means any information relating to an identified or identifiable natural person ( ' data subject ' ) ; an identifiable natural person is one who can be identified , directly or indirectly , in particular by reference to an identifier such as a name , an identification number , location data , an online identifier or to one or more factors specific to the physical , physiological , genetic , mental , economic , cultural or social identity of that natural person ;
+# ::alignments 85-86|0.1.4.0.1.1.1.1.0.5 84-85|0.1.4.0.1.1.1.1.0.5.0.0.0.0 81-82|0.1.4.0.1.1.1.1.0.5.0.0.0 80-81|0.1.4.0.1.1.1.1.0.5.0.0 79-80|0.1.4.0.1.1.1.1.0.5.0 78-79|0.1.4.0.1.1.1.1.0.5.0.0.0.0.0 76-77|0.1.4.0.1.1.1.1.0.5.0.0.0.0.0.0 74-75|0.1.4.0.1.1.1.1.0.5.0.0.0.0.0.0.0 72-73|0.1.4.0.1.1.1.1.1 70-71|0.1.4.0.1.1.1.1.0.4 68-69|0.1.4.0.1.1.1.1.0.3 65-66|0.1.4.0.1.1.1.1.0.0 64-65|0.1.4.0.1.1.1.1.0.2 63-64|0.1.4.0.1.1.1.1.0.1 62-63|0.1.4.0.1.1.1.1.0 59-60|0.1.4.0.1.1.1.1 57-58|0.1.4.0.1.1.1.0.0.0 54-55|0.1.4.0.1.1.1.0.0 53-54|0.1.4.0.1.1.1.0.0.1 51-52|0.1.4.0.1.1.1.0 50-51|0.1.4.0.1.1.1 47-48|0.1.4.0.1.1.0.1 44-45|0.1.4.0.1.1.0.0.2.0.0 43-44|0.1.4.0.1.1.0.0.2.0 40-41|0.1.4.0.1.1.0.0.2 38-39|0.1.4.0.1.1.0.0.3 35-36|0.1.4.0.1.1.0.0.1 34-35|0.1.4.0.1.1.0.0 33-34|0.1.4.0.1.1.0.0.0 31-32|0.1.4.0.1.1.0 29-30|0.1.4.0.1.0 25-26|0.1.4.0.1.1 24-25|0.1.4.0.1.1.2 21-22|0.1.4.0.1 18-19|0.1.4.0 17-18|0.1.4.0.0 14-15|0.1.4 13-14|0.1.0 12-13|0.1.3 11-12|0.1 10-11|0.1.1 7-8|0.1.2 6-7|0.1.2.0 5-6|0.2 4-5|0 2-3|0.0 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:38:42.537
+(m3 / mean-01 
+      :ARG1 (d5 / data 
+            :ARG1-of (p8 / personal-02)) 
+      :ARG2 (o6 / or 
+            :ARG1-of (n5 / natural-03) 
+            :ARG1-of (i6 / identify-01) 
+            :ARG2-of (r2 / relate-01 
+                  :ARG1 (i7 / information)) 
+            :op1 (i5 / identifiable) 
+            :op2 (p7 / person 
+                  :ARG1-of (s4 / subject-01 
+                        :ARG0 (d4 / data) 
+                        :ARG2 (a / and 
+                              :ARG1-of (p5 / possible-01) 
+                              :op1 (p6 / person 
+                                    :ARG0-of (i4 / identify-01 
+                                          :ARG1 (o5 / or 
+                                                :ARG1-of (d3 / direct-02) 
+                                                :ARG1-of (d2 / direct-02) 
+                                                :ARG1-of (r / reference-04 
+                                                      :ARG2 (i3 / identifi 
+                                                            :mod (s3 / such))) 
+                                                :op1 (p4 / particular)) 
+                                          :ARG2 (n3 / name)) 
+                                    :ARG0-of (i2 / identify-02 
+                                          :ARG1 (n2 / number 
+                                                :poss-of (d / data 
+                                                      :location (o4 / online) 
+                                                      :mod (l / location))) 
+                                          :ARG2 (o3 / or 
+                                                :op1 (o2 / or 
+                                                      :ARG1-of (s2 / specific-02) 
+                                                      :op1 (m2 / more) 
+                                                      :op2 (f / factor) 
+                                                      :op3 (p3 / physical) 
+                                                      :op4 (p2 / physiological) 
+                                                      :op5 (p / person 
+                                                            :op2-of (o / or 
+                                                                  :op1 (s / society 
+                                                                        :mod-of (i / identity 
+                                                                              :ARG1-of (n / natural-03 
+                                                                                    :ARG0 (c / culture 
+                                                                                          :mod-of (e / economy 
+                                                                                                :mod (m / mental))))))))) 
+                                                :op2 (g / gene))) 
+                                    :ARG1-of (n4 / natural-03)))))) 
+      :mod (a2 / any))
+
+# ::snt 'restriction of processing' means the marking of stored personal data with the aim of limiting their processing in the future;
+# ::tok ' restriction of processing ' means the marking of stored personal data with the aim of limiting their processing in the future ;
+# ::alignments 22-23|0.1.0.1.0.1 21-22|0.1.0.1.0.0.0 18-19|0.1.0.1.0.0 16-17|0.1.0.1.0 14-15|0.1.0.1 11-12|0.1.0.0 10-11|0.1.0.0.0 9-10|0.1.0 7-8|0.1 5-6|0 3-4|0.0.0 1-2|0.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:38:42.634
+(m2 / mean-01 
+      :ARG1 (r / restrict-01 
+            :ARG1 (p3 / process-01)) 
+      :ARG2 (m / mark-01 
+            :ARG1 (s / store-01 
+                  :ARG1 (d / data 
+                        :ARG1-of (p2 / personal-02)) 
+                  :ARG2 (a2 / aim-01 
+                        :ARG2 (l / limit-01 
+                              :ARG1 (p / process-01 
+                                    :time (f / future)) 
+                              :op1-of (a / and))))))
+
+# ::snt ‘processor’ means a natural or legal person, public authority, agency or other body which processes personal data on behalf of the controller;
+# ::tok ' processor ' means a natural or legal person , public authority , agency or other body which processes personal data on behalf of the controller ;
+# ::alignments 26-27|0.1.0.0.0.1 25-26|0.1.0.0.0 22-23|0.1.0.0.0.0 20-21|0.1.3.2 19-20|0.1.3.1 18-19|0.1.3 16-17|0.1.3.0 15-16|0.1.3.3.1 14-15|0.1.3.3 13-14|0.1.3.3.0 11-12|0.1.0.0 10-11|0.1.0.0.1 8-9|0.1.2 7-8|0.1.0 6-7|0.1 5-6|0.1.1 3-4|0 1-2|0.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:38:43.658
+(m / mean-01 
+      :ARG1 (p5 / processor) 
+      :ARG2 (o3 / or 
+            :ARG1-of (l / legal-02 
+                  :ARG0 (a3 / authority 
+                        :ARG0-of (c / control-01 
+                              :ARG1 (b / behalf) 
+                              :op1-of (a / and)) 
+                        :op1-of (p3 / public))) 
+            :ARG1-of (n / natural-03) 
+            :op1 (p4 / person) 
+            :op2 (p2 / process-02 
+                  :ARG1 (b2 / body) 
+                  :ARG1-of (p / personal-02) 
+                  :op1-of (d / data) 
+                  :op3-of (o2 / or 
+                        :op1 (a2 / agency) 
+                        :op2 (o / other)))))
+
+# ::snt Where Article 3(2) applies, the controller or the processor shall designate in writing a representative in the Union.
+# ::tok Where Article 3(2 ) applies , the controller or the processor shall designate in writing a representative in the Union .
+# ::alignments 16-17|0.1.0 14-15|0.1 12-13|0 10-11|0.0.1 8-9|0.0 7-8|0.0.0 4-5|0.2 1-2|0.2.0.0.0+0.2.0.0+0.2.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:38:43.849
+(d / designate-01 
+      :ARG0 (o / or 
+            :op1 (c / control-01) 
+            :op2 (p / processor)) 
+      :ARG1 (w / write-01 
+            :ARG1 (r / represent-01)) 
+      :ARG1-of (a / apply-02 
+            :ARG0 (o2 / organization 
+                  :name (n / name 
+                        :op1 "Article"))))
+
+# ::snt 'filing system' means any structured set of personal data which are accessible according to specific criteria, whether centralised, decentralised or dispersed on a functional or geographical basis;
+# ::tok ' filing system ' means any structured set of personal data which are accessible according to specific criteria , whether centralised , decentralised or dispersed on a functional or geographical basis ;
+# ::alignments 31-32|0.1 29-30|0.0.1.0.0.1 28-29|0.0.1.0.0 27-28|0.0.1.0.0.0 24-25|0.0.1.0 23-24|0.0.1 17-18|0.0 16-17|0.0.0 14-15|0 13-14|0.0.0.0 10-11|0.0.0.0.0 9-10|0.0.0.0.0.0 7-8|0.0.0.0.0.1 6-7|0.0.0.0.0.1.0 5-6|0.0.0.0.0.1.2 4-5|0.0.0.0.0.1.1 2-3|0.0.0.0.0.1.1.0 1-2|0.0.0.0.0.1.1.0.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:38:45.325
+(s2 / say-01 
+      :ARG0 (c / criteria 
+            :ARG1-of (s / specific-02 
+                  :compared-to-of (a2 / access-01 
+                        :ARG1 (d2 / data 
+                              :ARG1-of (p / personal-02) 
+                              :consist (s3 / set 
+                                    :ARG1-of (s4 / structure-01) 
+                                    :ARG1-of (m / mean-01 
+                                          :ARG0 (s5 / system 
+                                                :ARG0-of (f2 / file-01))) 
+                                    :mod (a3 / any))))) 
+            :op1-of (o2 / or 
+                  :op2 (d / disperse-01 
+                        :ARG2 (o / or 
+                              :op1 (f / functional) 
+                              :op2 (g / geographical))))) 
+      :ARG1 (a / and))
+
+# ::snt 'controller' means the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data; where the purposes and means of such processing are determined by Union or Member State law, the controller or the specific criteria for its nomination may be provided for by Union or Member State law;
+# ::tok ' controller ' means the natural or legal person , public authority , agency or other body which , alone or jointly with others , determines the purposes and means of the processing of personal data ; where the purposes and means of such processing are determined by Union or Member State law , the controller or the specific criteria for its nomination may be provided for by Union or Member State law ;
+# ::alignments 72-73|0.1.1.1.0 71-72|0.1.1.1.0.0 70-71|0.1.1.0+0.1.1 69-70|0.1.1.1 65-66|0.1.0.1.0.0.0.2 63-64|0.1.0.1.0.0.0.2.1 62-63|0.1.0.1.0.0.0.2.0 59-60|0.1.0.0.0.1 58-59|0.1.0.0.0.1.0 56-57|0.1.0.0.0 55-56|0.1.0.0.0.0 52-53|0.1.0.0 51-52|0.1.0.0.1 50-51|0.1.0.2+0.1.0 49-50|0.1.0.3 46-47|0.1.0.1.0.0.0 44-45|0.1.0.1 43-44|0.1.0.1.1 41-42|0.1.0.1.0 40-41|0.1.0.1.0.0 39-40|0.1.0.1.0.0.0.0 36-37|0.1.0.1.0.0.0.1 35-36|0.1.0.1.0.0.1.0.1.0.0 34-35|0.1.0.1.0.0.1.0.1.0.0.0 32-33|0.1.0.1.0.0.1.0.1.0 29-30|0.1.0.1.0.0.1.0.1 28-29|0.1.0.1.0.0.1.0 27-28|0.1.0.1.0.0.1.0.0 25-26|0.1.0.1.0.0.1 23-24|0.1.0.1.0.0.1.1 21-22|0.1.3.0.0 20-21|0.1.0.1.0.0.2 19-20|0.1.0.1.0.0.2.0 16-17|0.1.2.2 15-16|0.1.2.2.0 14-15|0.1.2 13-14|0.1.2.1 11-12|0.1.2.0 10-11|0.1.2.0.0 8-9|0.1 7-8|0.1.3.1 6-7|0.1.3 5-6|0.1.3.0 3-4|0 1-2|0.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:38:50.925
+(m5 / mean-01 
+      :ARG1 (c3 / control-01) 
+      :ARG2 (p9 / person 
+            :ARG0-of (h2 / have-org-role-91 
+                  :ARG1 (l2 / law 
+                        :op1-of (o2 / or 
+                              :op2 (c2 / control-01) 
+                              :op3 (c / criteria 
+                                    :ARG1-of (s2 / specific-02))) 
+                        :topic (s3 / state)) 
+                  :ARG1-of (p3 / process-01 
+                        :instrument (m3 / mean 
+                              :op2-of (a / and 
+                                    :ARG1-of (d / determined-02 
+                                          :ARG0 (p4 / purpose) 
+                                          :op1-of (a2 / and) 
+                                          :time (p / provide-01 
+                                                :ARG1 (n / nominate-01) 
+                                                :ARG1-of (p2 / possible-01))) 
+                                    :op1 (d3 / determine-01 
+                                          :ARG1 (a3 / and 
+                                                :op1 (p7 / purpose) 
+                                                :op2 (m4 / mean 
+                                                      :instrument-of (p6 / process-01 
+                                                            :ARG1 (d2 / data 
+                                                                  :ARG1-of (p5 / personal-02))))) 
+                                          :manner (o4 / other)) 
+                                    :op2-of (o5 / or 
+                                          :op1 (a4 / alone)))) 
+                        :mod (s4 / such)) 
+                  :ARG2 (m2 / member) 
+                  :op1-of (o3 / or)) 
+            :ARG0-of (h / have-org-role-91 
+                  :ARG2 (m / member) 
+                  :op1-of (o / or 
+                        :op2 (l / law 
+                              :topic (s / state)))) 
+            :op1-of (o7 / or 
+                  :op2 (a6 / authority 
+                        :mod (p8 / public)) 
+                  :op3 (a5 / agency) 
+                  :op4 (b / body 
+                        :mod (o6 / other))) 
+            :op3-of (o8 / or 
+                  :op1 (n2 / natural-03 
+                        :ARG1 (j / joint)) 
+                  :op2 (l3 / legal-02))))
+
+# ::snt 'third party' means a natural or legal person, public authority, agency or body other than the data subject, controller, processor and persons who, under the direct authority of the controller or processor, are authorised to process personal data;
+# ::tok ' third party ' means a natural or legal person , public authority , agency or body other than the data subject , controller , processor and persons who , under the direct authority of the controller or processor , are authorised to process personal data ;
+# ::alignments 46-47|0.0.0.0 45-46|0.1.0.2.2.0.0.0 44-45|0.1.0.2.2.0.0.0.0 43-44|0.1.0.2.2.0.0 41-42|0.1.0.2.2.0 38-39|0.1.0.2.2.0.0.1.0.0 37-38|0.1.0.2.2.0.0.1.0 36-37|0.1.0.2.2.0.0.1 33-34|0.1.0.2.2.0.0.1.1 32-33|0.1.0.2.2.0.0.1.1.0 27-28|0.1.0.2.2 26-27|0.1.0.2 25-26|0.1.0.2.1 23-24|0.0.0 21-22|0.1.0.2.0 20-21|0.1.0.2.0.0 17-18|0.1.0.1.0.1.0 16-17|0.1.0.1 15-16|0.1.0.1.0 14-15|0.1.0.1.0.1 12-13|0.1.0.0.0 11-12|0.1.0.0.0.0 9-10|0.1 8-9|0.1.0.1.0.0 7-8|0.1.0 6-7|0.1.0.0 4-5|0 2-3|0.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:38:53.303
+(m / mean-01 
+      :ARG1 (p8 / party 
+            :ARG0-of (c2 / control-01 
+                  :ARG1 (a / and))) 
+      :ARG2 (p7 / person 
+            :op2-of (o4 / or 
+                  :op1 (n / natural-03 
+                        :ARG1 (a6 / authority 
+                              :mod (p6 / public))) 
+                  :op3 (b / body 
+                        :op3-of (o3 / or 
+                              :op1 (l / legal-02) 
+                              :op2 (a5 / agency 
+                                    :mod-of (o2 / other)))) 
+                  :op4 (a4 / and 
+                        :op1 (s / subject 
+                              :mod (d3 / data)) 
+                        :op2 (p5 / processor) 
+                        :op3 (p4 / person 
+                              :ARG0-of (a2 / authorize-01 
+                                    :ARG1 (p2 / process-02 
+                                          :ARG1 (d / data 
+                                                :ARG1-of (p / personal-02)) 
+                                          :ARG1-of (c / control-01 
+                                                :op1-of (o / or 
+                                                      :op2 (p3 / processor)) 
+                                                :poss-of (a3 / authority 
+                                                      :ARG1-of (d2 / direct-02))))))))))
+
+# ::snt Any transfer of personal data which are undergoing processing or are intended for processing after transfer to a third country or to an international organisation shall take place only if, subject to the other provisions of this Regulation, the conditions laid down in this Chapter are complied with by the controller and processor, including for onward transfers of personal data from the third country or an international organisation to another third country or to another international organisation. All provisions in this Chapter shall be applied in order to ensure that the level of protection of natural persons guaranteed by this Regulation is not undermined.
+# ::tok Any transfer of personal data which are undergoing processing or are intended for processing after transfer to a third country or to an international organisation shall take place only if , subject to the other provisions of this Regulation , the conditions laid down in this Chapter are complied with by the controller and processor , including for onward transfers of personal data from the third country or an international organisation to another third country or to another international organisation . All provisions in this Chapter shall be applied in order to ensure that the level of protection of natural persons guaranteed by this Regulation is not undermined .
+# ::alignments 107-108|0 106-107|0.1 103-104|0.0.2 101-102|0.0 100-101|0.0.0 99-100|0.0.0.2 97-98|0.0.0.1 95-96|0.0.0.1.0 92-93|0.0.0.1.0.0 88-89|0.0.0.1.0.0.0 85-86|0.0.0.1.0.0.0.0 84-85|0.0.0.1.0.0.0.0.0 82-83|0.0.0.0.2.0.0.0.0.0 81-82|0.0.0.0.2.0.0.0.0.0.0 79-80|0.0.1 78-79|0.0.1.0 77-78|0.0.1.1 75-76|0.0.0.0.2.0.0.0.1.1.0.1 74-75|0.0.0.0.2.0.0.0.1.1.0 72-73|0.0.0.0.2.0.0.0.1.1.0.0 70-71|0.0.0.0.2.0.0.0.1.1 69-70|0.0.0.0.2.0.0.0.1.1.1 67-68|0.0.0.0.2.0.0.0.1 66-67|0.0.0.0.2.0.0.0.1.0 62-63|0.0.0.0.2.0.0.0 61-62|0.0.0.0.2.0.0.0.0 59-60|0.0.0.0.2.0.0 58-59|0.0.0.0.2.0.0.1 54-55|0.0.0.0.2.0.1.1 53-54|0.0.0.0.2.0.1 52-53|0.0.0.0.2.0 48-49|0.0.0.0.2.0.1.0 46-47|0.0.0.0.2.0.1.0.0.0.0 45-46|0.0.0.0.2.0.1.0.0.0.0.0 42-43|0.0.0.0.2.0.1.0.0.0 41-42|0.0.0.0.2.0.1.0.0 38-39|0.0.0.0.1.1.0.0.0.0.1.1.0+0.0.0.0.1.1.0.0.0.0.1.1+0.0.0.0.1.1.0.0.0.0.1 37-38|0.0.0.0.1.1.0.0.0.0.1.0 35-36|0.0.0.0.1.1.0.0.0.0 34-35|0.0.0.0.1.1.0.0.0.0.0 31-32|0.0.0.0.1.1.0.0.0 28-29|0.0.0.0.2 27-28|0.0.0.0.0 26-27|0.0.0.0 24-25|0.0.0.0.0.0 23-24|0.0.0.0.0.0.0 20-21|0.0.0.0.1.1.0.0.1 19-20|0.0.0.0.1.1.0.0 15-16|0.0.0.0.1.1.0 14-15|0.0.0.0.1.1 13-14|0.0.0.0.1 11-12|0.0.0.0.1.0 9-10|0.0.0.0.1.0.0 8-9|0.0.0.0.1.0.0.0 7-8|0.0.0.0.1.0.0.1 4-5|0.0.0.0.1.0.0.1.0 3-4|0.0.0.0.1.0.0.1.0.0 1-2|0.0.0.0.1.0.0.1.0.1 0-1|0.0.0.0.1.0.0.1.0.1.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:39:09.118
+(u / undermine-01 
+      :ARG1-of (g / guarantee-01 
+            :ARG0 (p / person 
+                  :ARG0-of (t7 / take-01 
+                        :ARG1 (p7 / place 
+                              :ARG1-of (o8 / organize-01 
+                                    :mod (i3 / international))) 
+                        :ARG1-of (p8 / process-01 
+                              :ARG1-of (i4 / intend-01 
+                                    :op2-of (o10 / or 
+                                          :ARG1-of (p9 / process-01) 
+                                          :op1 (u2 / undergo-01 
+                                                :ARG1 (d2 / data 
+                                                      :ARG1-of (p10 / personal-02) 
+                                                      :ARG1-of (t9 / transfer-01 
+                                                            :mod (a7 / any)))))) 
+                              :time (a6 / after 
+                                    :op1 (t8 / transfer-01 
+                                          :ARG2 (c8 / country 
+                                                :ARG1-of (s / subject-01 
+                                                      :ARG2 (p6 / provision 
+                                                            :mod (o6 / other) 
+                                                            :poss (t5 / thing 
+                                                                  :mod (t6 / this) 
+                                                                  :name (n2 / name 
+                                                                        :op1 "Regulation,")))) 
+                                                :op1-of (o9 / or))))) 
+                        :concession (o7 / only 
+                              :mod-of (c4 / control-01 
+                                    :ARG1 (t3 / transfer-01 
+                                          :ARG1 (d / data 
+                                                :ARG1-of (p4 / personal-02 
+                                                      :ARG0 (p3 / provision 
+                                                            :quant (a2 / all))) 
+                                                :source (o4 / or 
+                                                      :op1 (c3 / country) 
+                                                      :op2 (o3 / organize-01 
+                                                            :ARG1 (c2 / country 
+                                                                  :mod (a4 / another) 
+                                                                  :op1-of (o2 / or)) 
+                                                            :mod (i2 / international)))) 
+                                          :mod (o5 / onward)) 
+                                    :op1-of (a5 / and 
+                                          :ARG0-of (c5 / comply-01 
+                                                :ARG1 (c7 / condition 
+                                                      :ARG1-of (l2 / lay-01 
+                                                            :location (c6 / chapter 
+                                                                  :mod (t4 / this))))) 
+                                          :op2 (p5 / processor))))) 
+                  :ARG1-of (p2 / protect-01 
+                        :mod-of (l / level 
+                              :ARG1-of (e / ensure-01 
+                                    :ARG2-of (a / apply-01 
+                                          :ARG1 (c / chapter 
+                                                :mod (t2 / this)))))) 
+                  :ARG1-of (n / natural-03)) 
+            :ARG1-of (o / organize-01 
+                  :mod (i / international) 
+                  :mod (a3 / another)) 
+            :topic (t / this)) 
+      :polarity -)
+
+# ::snt In the absence of a decision pursuant to Article 45(3), a controller or processor may transfer personal data to a third country or an international organisation only if the controller or processor has provided appropriate safeguards, and on condition that enforceable data subject rights and effective legal remedies for data subjects are available.
+# ::tok In the absence of a decision pursuant to Article 45 ( 3 ) , a controller or processor may transfer personal data to a third country or an international organisation only if the controller or processor has provided appropriate safeguards , and on condition that enforceable data subject rights and effective legal remedies for data subjects are available .
+# ::alignments 57-58|0.0.0 55-56|0.0.2.2.1 54-55|0.0.2.2.1.0 52-53|0.0.2.2 51-52|0.0.2.2.2 50-51|0.0.2.2.0 49-50|0.0.2 48-49|0.0 47-48|0 46-47|0.0.1 45-46|0.0.2.0.1.1.0.0 43-44|0.0.2.1 41-42|0.0.2.0.1.0.1.0 39-40|0.0.2.0.1.5.1 38-39|0.0.2.0.1.5.1.0 37-38|0.0.2.0.1.5 35-36|0.0.2.0.1.5.0.1 34-35|0.0.2.0.1.5.0 33-34|0.0.2.0.1.5.0.0 30-31|0.0.2.0.0 29-30|0.0.2.0.1.4.1 28-29|0.0.2.0.1.4.1.1 26-27|0.0.2.0.1.4 25-26|0.0.2.0.1.4.0 21-22|0.0.2.0.1.1 20-21|0.0.2.0.1.1.0 19-20|0.0.2.0.1 18-19|0.0.2.0 17-18|0.0.2.0.1.0.1 16-17|0.0.2.0.1.0 15-16|0.0.2.0.1.0.0 11-12|0.0.2.0.1.5.0.0.0 9-10|0.0.2.0.1.0.0.0 8-9|0.0.2.0.1.4.1.0.0.0+0.0.2.0.1.4.1.0.0+0.0.2.0.1.4.1.0 6-7|0.0.2.0.1.4.1.0.1 5-6|0.0.2.0.1.2 2-3|0.0.2.0.1.3 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:39:11.895
+(s2 / subject 
+      :mod-of (r2 / right 
+            :ARG2-of (a / available-02) 
+            :mod (d2 / data) 
+            :op3-of (a2 / and 
+                  :op1 (p4 / possible-01 
+                        :ARG0 (o2 / only) 
+                        :ARG1 (t / transfer-01 
+                              :ARG0 (o5 / or 
+                                    :op1 (c4 / control-01 
+                                          :ARG1 45) 
+                                    :op2 (p5 / processor 
+                                          :op1-of (a3 / and))) 
+                              :ARG1 (d3 / data 
+                                    :ARG1-of (p3 / personal-02 
+                                          :ARG0 (e2 / enforceable))) 
+                              :ARG1-of (d4 / decide-01) 
+                              :ARG1-of (a5 / absent-01) 
+                              :ARG2 (o4 / or 
+                                    :op1 (c3 / country) 
+                                    :op2 (o3 / organize-01 
+                                          :ARG1 (o6 / organization 
+                                                :name (n / name 
+                                                      :op1 "Article") 
+                                                :prep-to-of (p6 / pursuant)) 
+                                          :mod (i / international))) 
+                              :condition (p / provide-01 
+                                    :ARG0 (o / or 
+                                          :op1 (c2 / control-01 
+                                                :ARG0 3) 
+                                          :op2 (p2 / processor)) 
+                                    :ARG1 (s3 / safeguard-01 
+                                          :ARG1-of (a4 / appropriate-02))))) 
+                  :op2 (c / condition) 
+                  :op4 (r / remedy-01 
+                        :ARG0-of (e / effective-04) 
+                        :ARG1 (s / subject 
+                              :mod (d / data)) 
+                        :ARG1-of (l / legal-02)))))
+
+# ::snt The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authorisation from a supervisory authority, by: (a) a legally binding and enforceable instrument between public authorities or bodies; (b) binding corporate rules in accordance with Article 47; (c) standard data protection clauses adopted by the Commission in accordance with the examination procedure referred to in Article 93(2); (d) standard data protection clauses adopted by a supervisory authority and approved by the Commission pursuant to the examination procedure referred to in Article 93(2); (e) an approved code of conduct pursuant to Article 40 together with binding and enforceable commitments of the controller or processor in the third country to apply the appropriate safeguards, including as regards data subjects' rights; or (f) an approved certification mechanism pursuant to Article 42 together with binding and enforceable commitments of the controller or processor in the third country to apply the appropriate safeguards, including as regards data subjects' rights.
+# ::tok The appropriate safeguards referred to in paragraph 1 may be provided for , without requiring any specific authorisation from a supervisory authority , by : ( a ) a legally binding and enforceable instrument between public authorities or bodies ; ( b ) binding corporate rules in accordance with Article 47 ; ( c ) standard data protection clauses adopted by the Commission in accordance with the examination procedure referred to in Article 93(2 ) ; ( d ) standard data protection clauses adopted by a supervisory authority and approved by the Commission pursuant to the examination procedure referred to in Article 93(2 ) ; ( e ) an approved code of conduct pursuant to Article 40 together with binding and enforceable commitments of the controller or processor in the third country to apply the appropriate safeguards , including as regards data subjects ' rights ; or ( f ) an approved certification mechanism pursuant to Article 42 together with binding and enforceable commitments of the controller or processor in the third country to apply the appropriate safeguards , including as regards data subjects ' rights .
+# ::alignments 185-186|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.2.0.0.2.0.2 183-184|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.2.0.0.2.0 182-183|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.2.0.0.2.0.1 181-182|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.2.0.0.2.0.0 177-178|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.2.0.0 176-177|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.2.0.0.2 174-175|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.2.0 172-173|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.2.0.0.0 168-169|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.3.1.0.1 167-168|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.3.1.0 166-167|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.3.1.0.0 163-164|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.3.1 162-163|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.3.0 161-162|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.3 160-161|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.3.1.1 158-159|0.0.0.1.1.0.0.0.0.3.7.0.0 157-158|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.2.0.0.1 154-155|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.3.1.0.0.0 153-154|0.0.0.1.1.0.0.0.0.3.7 152-153|0.0.0.1.1.0.0.0.0.3.7.2 151-152|0.0.0.1.1.0.0.0.0.3.7.0 148-149|0.0.0.1.1.0.0.0.0.3.7.1 146-147|0.0.0.1.1.0.0.0.0.3 144-145|0.0.0.1.0.0.0.0.2 142-143|0.0.0.1.0.0.0.0 141-142|0.0.0.1.0.0.0.0.1 140-141|0.0.0.1.0.0.0.0.0 136-137|0.0.0.1.0.0 135-136|0.0.0.1.0.0.0 133-134|0.0.0.1.0 131-132|0.0.0.1 127-128|0.0.1 126-127|0.0 125-126|0.0.0 122-123|0 121-122|0.2.0 120-121|0.2 119-120|0.1 117-118|0.0.0.1.1.0.0.0.0.1.0.0.0.0 116-117|0.0.0.0 113-114|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.1.0.0 112-113|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.1.0 110-111|0.0.0.1.1.0.0.0.0.3.6 109-110|0.0.0.1.1.0.0.0.0.3.6.0 106-107|0.0.0.1.1.0.0.0.0.3.6.0.0 98-99|0.0.0.1.1.0.0.0.0.1.0 97-98|0.0.0.1.1.0.0.0.0.1.0.0 96-97|0.0.0.1.1.0.0.0.0.1.0.0.0 89-90|0.0.0.1.1.0.0.0 88-89|0.0.0.1.1.0.0 87-88|0.0.0.1.1 86-87|0.0.0.1.1.1 83-84|0.0.0.1.1.0 82-83|0.0.0.1.1.0.0.0.0 81-82|0.0.0.1.1.0.0.0.0.0 80-81|0.0.0.1.1.0.0.0.0.0.0 79-80|0.0.0.1.1.0.0.0.0.1 77-78|0.0.0.1.1.0.0.0.0.2 69-70|0.0.0.1.1.0.0.0.0.3.5.2.1.0 68-69|0.0.0.1.1.0.0.0.0.3.5.2.1 67-68|0.0.0.1.1.0.0.0.0.3.5.2.1.1 64-65|0.0.0.1.1.0.0.0.0.3.5.2.1.0.1 62-63|0.0.0.1.1.0.0.0.0.3.5.2.0 59-60|0.0.0.1.1.0.0.0.0.3.5.2 58-59|0.0.0.1.1.0.0.0.0.3.5 57-58|0.0.0.1.1.0.0.0.0.3.5.0 56-57|0.0.0.1.1.0.0.0.0.3.5.0.0 55-56|0.0.0.1.1.0.0.0.0.3.5.1 53-54|0.0.0.1.1.0.0.0.0.3.0 50-51|0.0.0.1.1.0.0.0.0.3.5.2.1.1.0 49-50|0.0.0.1.1.0.0.0.0.3.5.2.1.0.0.0 47-48|0.0.0.1.1.0.0.0.0.3.5.2.1.0.0 45-46|0.0.0.1.1.0.0.0.0.3.4 44-45|0.0.0.1.1.0.0.0.0.3.4.1 43-44|0.0.0.1.1.0.0.0.0.3.4.0 41-42|0.0.0.1.1.0.0.0.0.3.1 39-40|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.1 38-39|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.1.1.1 37-38|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.1.1 36-37|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.1.1.0 35-36|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.1.1.0.0 33-34|0.0.0.1.1.0.0.0.0.3.3 32-33|0.0.0.1.1.0.0.0.0.3.3.0.1.1 31-32|0.0.0.1.1.0.0.0.0.3.3.0.1 30-31|0.0.0.1.1.0.0.0.0.3.3.0 21-22|0.0.0.1.1.0.0.0.0.3.2 20-21|0.0.0.1.1.0.0.0.0.3.2.0 17-18|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.2 16-17|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.2.1 15-16|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.2.2 14-15|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1 10-11|0.0.0.1.1.0.0.0.0.3.3.0.1.0 8-9|0.0.0.1.1.0.0.0.0.3.3.0.1.0.0 7-8|0.0.0.1.1.0.0.0.0.3.3.0.0 6-7|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.0.1.0 3-4|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.0.1 2-3|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.0 1-2|0.0.0.1.1.0.0.0.0.3.3.0.1.0.1.0.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:39:39.209
+(c7 / commit-01 
+      :ARG1 (o3 / or 
+            :op1 (c6 / control-01 
+                  :ARG1 40 
+                  :location (c5 / country 
+                        :ARG0-of (a6 / apply-01 
+                              :ARG1 (s4 / safeguard-01 
+                                    :ARG1-of (a5 / appropriate-02 
+                                          :op1-of (s3 / subject 
+                                                :ARG1-of (r4 / regard-01) 
+                                                :mod (d2 / data) 
+                                                :poss-of (r3 / right))))) 
+                        :mod-of (a11 / authority 
+                              :ARG0-of (a12 / adopt-01 
+                                    :op1-of (a10 / and 
+                                          :ARG0-of (a9 / approve-01 
+                                                :ARG1 (c10 / clause 
+                                                      :ARG0-of (p6 / protect-01 
+                                                            :ARG1 (d3 / data)) 
+                                                      :ARG1-of (s6 / standard-02 
+                                                            :ARG1-of (r5 / refer-01 
+                                                                  :ARG0 (p5 / procedure 
+                                                                        :instrument-of (e4 / examine-01 
+                                                                              :ARG1 (t2 / together))))) 
+                                                      :li (d4 / d) 
+                                                      :op5-of (o2 / or 
+                                                            :domain (c13 / c) 
+                                                            :domain (b4 / b) 
+                                                            :op1 (a20 / authority 
+                                                                  :mod (s8 / supervisory)) 
+                                                            :op2 (i / instrument 
+                                                                  :ARG1-of (b6 / binding-07 
+                                                                        :ARG0 1 
+                                                                        :op1-of (a19 / and 
+                                                                              :ARG1-of (p10 / provide-01 
+                                                                                    :ARG1-of (p11 / possible-01) 
+                                                                                    :condition (r8 / require-01 
+                                                                                          :ARG0 (s10 / safeguard-01 
+                                                                                                :ARG1-of (a23 / appropriate-02) 
+                                                                                                :ARG1-of (r9 / refer-01 
+                                                                                                      :time (p12 / paragraph))) 
+                                                                                          :ARG1 (a17 / and 
+                                                                                                :op1 (c8 / conduct-01 
+                                                                                                      :ARG1 (p4 / pursuant)) 
+                                                                                                :op3-of (o4 / or 
+                                                                                                      :op1 (a18 / authority 
+                                                                                                            :mod (p9 / public)) 
+                                                                                                      :op2 (b5 / body))) 
+                                                                                          :ARG2 (a21 / authorisation 
+                                                                                                :ARG0-of (a2 / apply-01 
+                                                                                                      :ARG1 (s2 / safeguard-01 
+                                                                                                            :ARG0 (c / country) 
+                                                                                                            :ARG1 42 
+                                                                                                            :ARG1-of (a / appropriate-02 
+                                                                                                                  :op1-of (s / subject 
+                                                                                                                        :ARG1-of (r2 / regard-01) 
+                                                                                                                        :mod (d / data) 
+                                                                                                                        :poss-of (r / right))))) 
+                                                                                                :ARG1-of (s9 / specific-02) 
+                                                                                                :mod (a22 / any)) 
+                                                                                          :op1-of (a3 / and 
+                                                                                                :op2 (e / enforceable) 
+                                                                                                :op3 (c3 / commit-01 
+                                                                                                      :ARG1 (o / or 
+                                                                                                            :op1 (c2 / control-01 
+                                                                                                                  :ARG1 (p2 / pursuant)) 
+                                                                                                            :op2 (p / processor)) 
+                                                                                                      :ARG1-of (b / binding-07))))) 
+                                                                              :op2 (e6 / enforceable)))) 
+                                                            :op3 (r7 / rule 
+                                                                  :ARG1-of (b3 / binding-07) 
+                                                                  :poss (c14 / corporation)) 
+                                                            :op4 (c12 / clause 
+                                                                  :ARG0-of (p8 / protect-01 
+                                                                        :ARG1 (d5 / data)) 
+                                                                  :ARG1-of (s7 / standard-02) 
+                                                                  :ARG1-of (a14 / adopt-01 
+                                                                        :ARG0 (c11 / commission) 
+                                                                        :ARG2 (p7 / procedure 
+                                                                              :ARG0-of (r6 / refer-01 
+                                                                                    :ARG1 (a16 / accord-02 
+                                                                                          :ARG2 (a15 / article)) 
+                                                                                    :ARG1-of (a13 / accord-02)) 
+                                                                              :instrument-of (e5 / examine-01 
+                                                                                    :ARG1 47)))) 
+                                                            :op6 (c9 / code 
+                                                                  :mod (a8 / approve-01 
+                                                                        :ARG1 (e3 / e))) 
+                                                            :op7 (m / mechanism 
+                                                                  :ARG0-of (a4 / approve-01 
+                                                                        :ARG1 (t / together)) 
+                                                                  :li (f / f) 
+                                                                  :mod (c4 / certification))))))) 
+                              :mod (s5 / supervisory)))) 
+            :op2 (p3 / processor)) 
+      :ARG1-of (b2 / binding-07) 
+      :op2-of (a7 / and 
+            :op1 (e2 / enforceable)))
+
+# ::snt Where processing is based on consent, the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data.
+# ::tok Where processing is based on consent , the controller shall be able to demonstrate that the data subject has consented to processing of his or her personal data .
+# ::alignments 27-28|0.0.1.1.0 26-27|0.0.1.1.0.0 24-25|0.0.0.0 21-22|0.0.1.1 19-20|0.0.1 17-18|0.0.1.0 16-17|0.0.1.0.0 13-14|0.0 11-12|0 8-9|0.0.0 5-6|0.1.1 3-4|0.1 1-2|0.1.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:39:39.487
+(p3 / possible-01 
+      :ARG1 (d3 / demonstrate-01 
+            :ARG0 (c2 / control-01 
+                  :ARG0 (o / or)) 
+            :ARG1 (c / consent-01 
+                  :ARG0 (s / subject 
+                        :mod (d2 / data)) 
+                  :ARG2 (p2 / process-01 
+                        :ARG1 (d / data 
+                              :ARG1-of (p / personal-02))))) 
+      :time (b / base-02 
+            :ARG1 (p4 / process-01) 
+            :ARG2 (c3 / consent-01)))
+
+# ::snt If the data subject's consent is given in the context of a written declaration which also concerns other matters, the request for consent shall be presented in a manner which is clearly distinguishable from the other matters, in an intelligible and easily accessible form, using clear and plain language. Any part of such a declaration which constitutes an infringement of this Regulation shall not be binding.
+# ::tok If the data subject 's consent is given in the context of a written declaration which also concerns other matters , the request for consent shall be presented in a manner which is clearly distinguishable from the other matters , in an intelligible and easily accessible form , using clear and plain language . Any part of such a declaration which constitutes an infringement of this Regulation shall not be binding .
+# ::alignments 70-71|0.0.0.0.0.1.1.1.0.0.1.0.0.0.0 68-69|0.0.0.0.0.1.1.1.0.0.1.0.0.0.0.0 66-67|0.0.0.0.0.1.1.1.0.0.1.0.0.0.2.0+0.0.0.0.0.1.1.1.0.0.1.0.0.0.2+0.0.0.0.0.1.1.1.0.0.1.0.0.0 65-66|0.0.0.0.0.1.1.1.0.0.1.0.0.0.1 63-64|0.0.0.0.0.1.1.1.0.0.1.0.0 61-62|0.0.0.0.0.1.1.1.0.0.1.0 59-60|0.0.0.0.0.1.1.1.0.0.1 57-58|0.0.0.0.0.1.1.0 54-55|0.0.0.0.0.1.2.0 52-53|0.0.0.0.0.1.2.1 51-52|0.0.0.0.0.1.2.3.1 50-51|0.0.0.0.0.1.2.3 49-50|0.0.0.0.0.1.2.3.0 48-49|0.0.0.0.0.1.2 46-47|0.0.0.0.0.1.1.1 45-46|0.0.0.0.0.1.1 43-44|0.0.0.0.0.1 42-43|0.0.0.0.0.1.0 38-39|0.0.0.0.0.1.2.2 37-38|0.0.0.0.0.1.2.2.0 34-35|0.0.0.0.0.1.1.1.0.0.0.0.0.0 33-34|0.0.0.0.0.1.1.1.0.0.0.0.0 30-31|0.0.0.0.0.1.1.1.0 27-28|0.0.0.0.0.1.1.1.0.0 24-25|0.0.0.0.0.1.1.1.0.0.0.0 22-23|0.0.0.0.0.1.1.1.0.0.0 19-20|0.0.0.0.0.0.0 18-19|0.0.0.0.0.0.0.0 17-18|0.0.0.0.0.0 16-17|0.0.0.0.0.0.1 14-15|0.0.0.0.0 13-14|0.0.0.0.0.2 10-11|0.0.0.0 7-8|0.0.0 5-6|0.0 3-4|0 2-3|0.1 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:39:43.599
+(s2 / subject 
+      :ARG1-of (c7 / consent-01 
+            :ARG1-of (g / give-01 
+                  :ARG2 (c6 / context 
+                        :time-of (d3 / declare-02 
+                              :ARG0-of (c5 / concern-01 
+                                    :ARG1 (m3 / matter 
+                                          :mod (o2 / other)) 
+                                    :mod (a5 / also)) 
+                              :ARG1 (a4 / and 
+                                    :op1 (i2 / intelligible) 
+                                    :op2 (a3 / access-01 
+                                          :ARG0 (s / such) 
+                                          :ARG1 (f / form 
+                                                :poss (m2 / manner 
+                                                      :ARG2-of (p2 / present-01 
+                                                            :ARG1 (r / request-01 
+                                                                  :ARG1 (c4 / consent-01 
+                                                                        :ARG1 (c3 / clear-06 
+                                                                              :ARG1 (d2 / distinguishable)))) 
+                                                            :ARG1-of (d / declare-02 
+                                                                  :ARG0-of (c / constitute-01 
+                                                                        :ARG1 (i / infringe-01 
+                                                                              :ARG1 (t / thing 
+                                                                                    :ARG1-of (b / binding-07 
+                                                                                          :polarity -) 
+                                                                                    :mod (t2 / this) 
+                                                                                    :name (n / name 
+                                                                                          :op1 "Regulation"))))))))) 
+                                    :op3 (u / use-01 
+                                          :ARG0 (a / any) 
+                                          :ARG1 (l / language) 
+                                          :ARG2 (m / matter 
+                                                :mod (o / other)) 
+                                          :op1-of (a2 / and 
+                                                :op2 (c2 / clear-06) 
+                                                :op3 (p / plain)))) 
+                              :ARG1-of (w / write-01))))) 
+      :mod (d4 / data))
+
+# ::snt The data subject shall have the right to withdraw his or her consent at any time. The withdrawal of consent shall not affect the lawfulness of processing based on consent before its withdrawal. Prior to giving consent, the data subject shall be informed thereof. It shall be as easy to withdraw as to give consent.
+# ::tok The data subject shall have the right to withdraw his or her consent at any time . The withdrawal of consent shall not affect the lawfulness of processing based on consent before its withdrawal . Prior to giving consent , the data subject shall be informed thereof . It shall be as easy to withdraw as to give consent .
+# ::alignments 58-59|0.0.7.1 57-58|0.0.3 54-55|0.0.7 52-53|0.0.7.0 48-49|0.0.7.1.0 46-47|0.0.7.1.0.0.1 45-46|0.0.7.1.0.0 42-43|0.0.7.1.0.0.0 41-42|0.0.7.1.0.1 38-39|0.0.7.1.0.1.0 37-38|0.0.0 35-36|0.0.0.0 33-34|0.0.6 31-32|0.0.1.0.0 30-31|0.0.1.0 28-29|0.0.5 27-28|0.0.1 25-26|0.0.5.0 23-24|0 22-23|0.1 20-21|0.0.2 18-19|0.0.4 15-16|0.0.7.2 14-15|0.0.7.2.0 12-13|0.0.8.1 10-11|0.0.8.1.0 8-9|0.0.8 6-7|0.0 2-3|0.0.8.0 1-2|0.0.8.0.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:39:50.594
+(a / affect-01 
+      :ARG1 (r / right-05 
+            :ARG1-of (g2 / give-01 
+                  :ARG2 (p / prior)) 
+            :ARG1-of (p2 / process-01 
+                  :ARG1-of (c3 / consent-01 
+                        :time (b / before))) 
+            :ARG1-of (c4 / consent-01) 
+            :ARG1-of (g / give-01) 
+            :ARG1-of (w3 / withdraw-01) 
+            :ARG1-of (b2 / base-02 
+                  :ARG2 (l / lawfulnes)) 
+            :ARG1-of (w2 / withdraw-01) 
+            :ARG1-of (w / withdraw-01 
+                  :ARG1-of (e / easy-05) 
+                  :ARG1-of (c / consent-01 
+                        :ARG0 (i / it 
+                              :ARG0-of (i2 / inform-01 
+                                    :ARG1 (s / subject) 
+                                    :mod (t / thereof)) 
+                              :poss-of (d / data 
+                                    :ARG1-of (c2 / consent-01)))) 
+                  :ARG2 (t2 / time 
+                        :mod (a2 / any))) 
+            :ARG2 (w4 / withdraw-01 
+                  :ARG0 (s2 / subject 
+                        :mod (d2 / data)) 
+                  :ARG1 (c5 / consent-01 
+                        :op1-of (o / or)))) 
+      :polarity -)
+
+# ::snt When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia, the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.
+# ::tok When assessing whether consent is freely given , utmost account shall be taken of whether , inter alia , the performance of a contract , including the provision of a service , is conditional on consent to the processing of personal data that is not necessary for the performance of that contract .
+# ::alignments 51-52|0.0.1.0.1.0 48-49|0.0.1.0.1 44-45|0.0.1.0.2.0.0.0 41-42|0.0.1.0.1.0.0.0 40-41|0.0.1.0.1.0.0.0.0 38-39|0.0.1.0.1.0.0 35-36|0.0.1.0.2 33-34|0.0.1.0.1.0.0.1 30-31|0.0.1.0.0 27-28|0.0.1.0 23-24|0.0.1.0.2.0.0 20-21|0.0.1.0.2.0 17-18|0.1.0 16-17|0.1.0.0 12-13|0.1 9-10|0.1.1 8-9|0.0.0.0 6-7|0.0 5-6|0.0.1 3-4|0.0.0 1-2|0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:39:51.646
+(a3 / assess-01 
+      :ARG1 (g / give-01 
+            :ARG1 (c5 / consent-01 
+                  :ARG1 (u / utmost)) 
+            :ARG3-of (f / free-04 
+                  :ARG1 (p4 / provision-01 
+                        :ARG1 (s / service) 
+                        :ARG2 (p / perform-02 
+                              :ARG1 (c / contract-02 
+                                    :ARG1 (p3 / process-01 
+                                          :ARG1 (d / data 
+                                                :ARG1-of (p2 / personal-02)) 
+                                          :beneficiary-of (c3 / conditional)))) 
+                        :purpose (c2 / consent-01 
+                              :ARG1 (p5 / perform-02 
+                                    :ARG1 (c4 / contract-02 
+                                          :ARG0 -)))))) 
+      :purpose-of (t / take-01 
+            :ARG0 (a / alia 
+                  :mod (i / inter-agency)) 
+            :ARG1 (a2 / account)))
+
+# ::snt Conditions for consent
+# ::tok Conditions for consent
+# ::alignments 2-3|0.0.0 0-1|0.0+0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:39:51.657
+(t / thing 
+      :ARG2-of (c2 / condition-01 
+            :ARG1 (c / consent-01)))
+
+# ::snt Subject-matter and objectives
+# ::tok Subject - matter and objectives
+# ::alignments 4-5|0.1.0 3-4|0.1 2-3|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:39:51.671
+(s / subject-01 
+      :ARG1 (m / matter) 
+      :op1-of (a / and 
+            :op2 (o / objective)))
+
+# ::snt Material scope
+# ::tok Material scope
+# ::alignments 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:39:51.675
+(s / scope 
+      :mod (m / material))
+
+# ::snt Territorial scope
+# ::tok Territorial scope
+# ::alignments 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:39:51.680
+(s / scope 
+      :mod (t / territorial))
+
+# ::snt Definitions - For the purposes of this Regulation:
+# ::tok Definitions - For the purposes of this Regulation :
+# ::alignments 7-9|0.0.0.0.0+0.0.0.0+0.0.0 6-7|0.0 4-5|0.0.0.1 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:39:51.701
+(d / definition 
+      :op1 (t2 / this 
+            :mod-of (t / thing 
+                  :name (n / name 
+                        :op1 "Regulation:") 
+                  :poss-of (p / purpose))))
+
+# ::snt Lawfulness of processing
+# ::tok Lawfulness of processing
+# ::alignments 2-3|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:39:51.708
+(l / lawfulnes 
+      :mod (p / process-01))
+
+# ::snt General principle for transfers
+# ::tok General principle for transfers
+# ::alignments 3-4|0.1 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:39:51.717
+(p / principle 
+      :mod (g / general) 
+      :purpose (t / transfer-01))
+
+# ::snt Transfers subject to appropriate safeguards
+# ::tok Transfers subject to appropriate safeguards
+# ::alignments 4-5|0 3-4|0.0 1-2|0.1 0-1|0.1.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:39:51.732
+(s / safeguard-01 
+      :ARG1-of (a / appropriate-02) 
+      :ARG2-of (s2 / subject-01 
+            :ARG1-of (t / transfer-01)))
+
+# ::snt This Regulation applies to the processing of personal data wholly or partly by automated means and to the processing other than by automated means of personal data which form part of a filing system or are intended to form part of a filing system.
+# ::tok This Regulation applies to the processing of personal data wholly or partly by automated means and to the processing other than by automated means of personal data which form part of a filing system or are intended to form part of a filing system .
+# ::alignments 43-44|0.1.0 42-43|0.1.0.0 38-39|0.1 36-37|0 34-35|0.1.1 33-34|0.0.2.0 32-33|0.0.2 28-29|0.1.1.0 26-27|0.0 25-26|0.0.0 23-24|0.0.1 22-23|0.0.1.0 19-20|0.1.0.0.0 18-19|0.0.1.0.0 15-16|0.0.1.0.0.0 14-15|0.0.1.0.0.0.0.0 13-14|0.0.1.0.0.0.0 11-12|0.0.2.1 10-11|0.1.2 9-10|0.1.2.0 8-9|0.0.0.0.1.0 7-8|0.0.0.0.1.0.0 5-6|0.0.0.0.1 2-3|0.0.0.0 1-2|0.0.0.0.0.1.0+0.0.0.0.0.1+0.0.0.0.0 0-1|0.0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:39:53.365
+(i / intend-01 
+      :ARG0 (d / data 
+            :ARG1-of (p / personal-02 
+                  :ARG2 (a4 / apply-02 
+                        :ARG1 (t / thing 
+                              :mod (t2 / this) 
+                              :name (n / name 
+                                    :op1 "Regulation")) 
+                        :ARG2 (p5 / process-01 
+                              :ARG1 (d2 / data 
+                                    :ARG1-of (p4 / personal-02))))) 
+            :mod-of (m / mean 
+                  :ARG1-of (a / automate-01 
+                        :ARG1-of (p2 / process-01 
+                              :op1-of (a2 / and 
+                                    :ARG0-of (a3 / automate-01 
+                                          :ARG1 (m2 / mean)))))) 
+            :part-of (f3 / file-01 
+                  :ARG0 (s2 / system) 
+                  :ARG1 (p3 / part))) 
+      :ARG1 (f2 / form-01 
+            :ARG1 (s / system 
+                  :ARG0-of (f / file-01 
+                        :ARG1 (o2 / other))) 
+            :op2-of (o / or 
+                  :op1 (f4 / form)) 
+            :op2-of (o3 / or 
+                  :op1 (w / whole))))
+
+# ::snt For the processing of personal data by the Union institutions, bodies, offices and agencies, Regulation (EC) No 45/2001 applies. Regulation (EC) No 45/2001 and other Union legal acts applicable to such processing of personal data shall be adapted to the principles and rules of this Regulation in accordance with Article 98.
+# ::tok For the processing of personal data by the Union institutions , bodies , offices and agencies , Regulation ( EC ) No 45/2001 applies . Regulation ( EC ) No 45/2001 and other Union legal acts applicable to such processing of personal data shall be adapted to the principles and rules of this Regulation in accordance with Article 98 .
+# ::alignments 58-59|0.0.2 57-58|0.2.1.1.0+0.2.1.1+0.2.1 55-56|0.2.1.0 52-53|0.2.0.0.0.0.1.1.0 50-51|0.2.0 49-50|0.2 48-49|0.1 45-46|0 42-43|0.0 41-42|0.0.0 39-40|0.0.1 38-39|0.0.1.1 36-37|0.0.1.0 35-36|0.2.0.0 34-35|0.2.0.0.1 32-33|0.2.1.0.0 31-32|0.2.0.0.0.0.1.1 29-30|0.2.0.0.0.0.1.0.0.0.0 23-24|0.2.0.0.0.0 21-22|0.2.0.0.0.0.1.0.1 19-20|0.2.0.0.0.0.0.0.0+0.2.0.0.0.0.0.0+0.2.0.0.0.0.0 17-18|0.2.0.0.0.1.0+0.2.0.0.0.1+0.2.0.0.0 15-16|0.2.0.0.0.0.1.5 14-15|0.2.0.0.0.0.1 13-14|0.2.0.0.0.0.1.4 11-12|0.2.0.0.0.0.1.3 9-10|0.2.0.0.0.0.1.2 8-9|0.2.0.0.0.0.1.2.0.0.0+0.2.0.0.0.0.1.2.0.0+0.2.0.0.0.0.1.2.0 5-6|0.2.0.0.0.0.1.0.0 4-5|0.2.0.0.0.0.1.0.0.0 2-3|0.2.0.0.0.0.1.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:39:55.893
+(a3 / adapt-01 
+      :ARG1 (d / data 
+            :ARG1-of (p2 / personal-02) 
+            :ARG1-of (p3 / process-01 
+                  :ARG1-of (a4 / apply-02) 
+                  :mod (s / such)) 
+            :poss 98) 
+      :ARG2 (p / principle) 
+      :op1-of (a2 / and 
+            :op2 (r / rule 
+                  :ARG1-of (a5 / act-02 
+                        :ARG0 (t2 / thing 
+                              :ARG1-of (a7 / apply-02 
+                                    :ARG0 (o3 / organization 
+                                          :name (n2 / name 
+                                                :op1 "(EC)")) 
+                                    :ARG2 (a9 / and 
+                                          :op1 (p5 / process-01 
+                                                :ARG1 (d2 / data 
+                                                      :ARG1-of (p4 / personal-02 
+                                                            :op1-of -)) 
+                                                :ARG2 -) 
+                                          :op1-of (a6 / and 
+                                                :poss-of (t / this)) 
+                                          :op2 (i / institution 
+                                                :mod (o5 / organization 
+                                                      :name (n4 / name 
+                                                            :op1 "Union"))) 
+                                          :op3 (b / body) 
+                                          :op4 (o4 / office) 
+                                          :op5 (a8 / agency))) 
+                              :name (n3 / name 
+                                    :op1 "Regulation")) 
+                        :ARG1-of (l / legal-02))) 
+            :op3 (o / organization 
+                  :ARG1-of (a / accord-02 
+                        :ARG0 (o2 / other)) 
+                  :name (n / name 
+                        :op1 "Article"))))
+
+# ::snt This Regulation shall be without prejudice to the application of Directive 2000/31/EC, in particular of the liability rules of intermediary service providers in Articles 12 to 15 of that Directive.
+# ::tok This Regulation shall be without prejudice to the application of Directive 2000/31 / EC , in particular of the liability rules of intermediary service providers in Articles 12 to 15 of that Directive .
+# ::alignments 31-32|0.3.2 29-30|0.2.2 27-28|0.3.0.0.0 26-27|0.3.0.1.0 24-25|0 23-24|0.1 22-23|0.1.0 20-21|0.2 19-20|0.2.0 16-17|0.2.1 12-13|0.0 10-11|0.3.1 8-9|0.3 5-6|0.3.0.0 1-2|0.3.0.2.0+0.3.0.2+0.3.0 0-1|0.3.0.1 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:39:56.220
+(p / provide-01 
+      :ARG0 (s2 / slash) 
+      :ARG1 (s / service 
+            :mod (i / intermediary)) 
+      :mod-of (r / rule 
+            :mod (l / liability) 
+            :poss-of (p2 / particular) 
+            :value 15) 
+      :purpose-of (a2 / apply-01 
+            :ARG0 (t2 / thing 
+                  :ARG1-of (p3 / prejudice-01 
+                        :ARG2 12) 
+                  :mod (t3 / this 
+                        :mod-of (a / article)) 
+                  :name (n / name 
+                        :op1 "Regulation")) 
+            :ARG1 (d / directive) 
+            :op1-of (t / that)))
+
+# ::snt The controller shall be responsible for, and be able to demonstrate compliance with, paragraph 1 (‘accountability’).
+# ::tok The controller shall be responsible for , and be able to demonstrate compliance with , paragraph 1 ( ' accountability ' ) .
+# ::alignments 19-20|0.0.0.0 16-17|0.0.0.0.0 15-16|0.2.0.0 12-13|0.2.0 11-12|0.2 9-10|0.1 7-8|0 4-5|0.0 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:39:56.631
+(a2 / and 
+      :ARG1-of (r / responsible-01 
+            :manner (c2 / control-01 
+                  :ARG1 (a / accountable-02 
+                        :ARG1 1))) 
+      :ARG1-of (p2 / possible-01) 
+      :op1 (d / demonstrate-01 
+            :ARG1 (c / comply-01 
+                  :ARG1 (p / paragraph))))
+
+# ::snt Conditions applicable to child's consent in relation to information society services
+# ::tok Conditions applicable to child 's consent in relation to information society services
+# ::alignments 11-12|0.1 10-11|0.1.0 9-10|0.0.0 7-8|0 5-6|0.0 3-4|0.0.1 1-2|0.0.2 0-1|0.0.2.0+0.0.2.0.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:39:56.679
+(r / relate-01 
+      :ARG1 (c / consent-01 
+            :ARG0 (i / information) 
+            :ARG1 (c2 / child) 
+            :ARG1-of (a / apply-02 
+                  :ARG1-of (c3 / condition-01 
+                        :ARG2 (t / thing)))) 
+      :ARG2 (s / service 
+            :mod (s2 / society)))
+
+# ::snt The controller shall make reasonable efforts to verify in such cases that consent is given or authorised by the holder of parental responsibility over the child, taking into consideration available technology.
+# ::tok The controller shall make reasonable efforts to verify in such cases that consent is given or authorised by the holder of parental responsibility over the child , taking into consideration available technology .
+# ::alignments 31-32|0.0.1.0 30-31|0.0.1 29-30|0 27-28|0.0 25-26|0.0.0.0.0.0 22-23|0.0.0.0.0.1 21-22|0.0.0.0.0.1.0 19-20|0.0.0.0.0 16-17|0.0.0.0.1.1 15-16|0.0.0.0.1 14-15|0.0.0.0 12-13|0.0.0 10-11|0.0.0.0.1.0.1 9-10|0.0.0.0.1.0.1.0 7-8|0.0.0.0.1.0 5-6|0.0.0.0.1.0.2 4-5|0.0.0.0.1.0.2.0 1-2|0.0.0.0.1.0.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:39:57.389
+(c / consider-02 
+      :ARG2-of (t2 / take-01 
+            :ARG0 (c3 / consent-01 
+                  :ARG1-of (g / give-01 
+                        :ARG0 (h / hold-01 
+                              :ARG0 (c2 / child) 
+                              :ARG1 (r / responsible-03 
+                                    :mod (p / parental))) 
+                        :op1-of (o / or 
+                              :ARG1-of (v / verify-01 
+                                    :ARG0 (c5 / control-01) 
+                                    :ARG2 (c4 / case-03 
+                                          :mod (s / such)) 
+                                    :purpose-of (e / effort 
+                                          :ARG1-of (r2 / reasonable-02))) 
+                              :op2 (a2 / authorize-01)))) 
+            :ARG1 (a / available-02 
+                  :ARG2 (t / technology))))
+
+# ::snt Paragraph 1 shall not affect the general contract law of Member States such as the rules on the validity, formation or effect of a contract in relation to a child.
+# ::tok Paragraph 1 shall not affect the general contract law of Member States such as the rules on the validity , formation or effect of a contract in relation to a child .
+# ::alignments 30-31|0.2.2.1.1.0 27-28|0.2.2.1.1 25-26|0.2.2.1 22-23|0.2.2 21-22|0.2 20-21|0.2.1 18-19|0.2.0 15-16|0.2.0.0 12-13|0.2.2.1.0 11-12|0.0.0.0 10-11|0.0.0.1+0.0.0 8-9|0.1 7-8|0.1.1 6-7|0.1.0 4-5|0 3-4|0.3 1-2|0.2.2.0 0-1|0.0.1.0+0.0.1+0.0 ::annotator JAMR dev v0.3 ::date 2020-06-01T17:39:57.992
+(a / affect-01 
+      :ARG0 (o2 / organization 
+            :ARG1-of (h / have-org-role-91 
+                  :ARG0 (s2 / state) 
+                  :ARG2 (m / member)) 
+            :name (n / name 
+                  :op1 "Paragraph")) 
+      :ARG1 (l / law 
+            :ARG1-of (g / general-02) 
+            :topic (c3 / contract-02)) 
+      :location (o / or 
+            :op1 (v / valid-02 
+                  :ARG0 (r2 / rule)) 
+            :op2 (f / form-01) 
+            :op3 (e / effect-03 
+                  :ARG0 1 
+                  :ARG1 (c2 / contract-02 
+                        :ARG1 (s / such) 
+                        :ARG1-of (r / relate-01 
+                              :ARG2 (c / child))))) 
+      :polarity -)
+
